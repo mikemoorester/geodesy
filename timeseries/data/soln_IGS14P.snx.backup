@@ -1,0 +1,1171 @@
+%=SNX 2.02 IGN 16:187:29323 IGN 94:002:00000 15:046:00000 P     0 0 S
+*-------------------------------------------------------------------------------
++FILE/COMMENT
+
+ Discontinuity list to be used with IGS14P.snx
+ =============================================
+ 
+ This list is based on the ITRF2014 discontinuity list (ITRF2014-soln-gnss.snx).
+ It is updated each time a new discontinuity affects an IGS14P station.
+
+-FILE/COMMENT
+*-------------------------------------------------------------------------------
++SOLUTION/DISCONTINUITY
+ ABMF  A    1 P 00:000:00000 09:288:72000 P - antenna change
+ ABMF  A    2 P 09:288:72000 12:024:43200 P - antenna change
+ ABMF  A    3 P 12:024:43200 00:000:00000 P - 
+ ABMF  A    1 P 00:000:00000 00:000:00000 V - 
+ ABPO  A    1 P 00:000:00000 00:000:00000 P - 
+ ABPO  A    1 P 00:000:00000 00:000:00000 V - 
+ ADE1  A    1 P 00:000:00000 00:000:00000 P - 
+ ADE1  A    1 P 00:000:00000 00:000:00000 V - 
+ ADIS  A    1 P 00:000:00000 00:000:00000 P - 
+ ADIS  A    1 P 00:000:00000 00:000:00000 V - 
+ AJAC  A    1 P 00:000:00000 08:331:00000 P - antenna change
+ AJAC  A    2 P 08:331:00000 12:340:32400 P - antenna change
+ AJAC  A    3 P 12:340:32400 00:000:00000 P - 
+ AJAC  A    1 P 00:000:00000 00:000:00000 V - 
+ ALBH  A    1 P 00:000:00000 94:104:74100 P - antenna change
+ ALBH  A    2 P 94:104:74100 95:011:80100 P - antenna change
+ ALBH  A    3 P 95:011:80100 95:202:69960 P - RF skirt installed around based of antenna
+ ALBH  A    4 P 95:202:69960 03:248:60720 P - antenna change
+ ALBH  A    5 P 03:248:60720 15:258:68400 P - antenna change
+ ALBH  A    6 P 15:258:68400 00:000:00000 P - 
+ ALBH  A    1 P 00:000:00000 00:000:00000 V - 
+ ALGO  A    1 P 00:000:00000 94:047:69180 P - antenna change
+ ALGO  A    2 P 94:047:69180 94:139:00000 P - antenna change
+ ALGO  A    3 P 94:139:00000 97:016:00000 P - antenna change
+ ALGO  A    4 P 97:016:00000 12:355:61200 P - antenna change
+ ALGO  A    5 P 12:355:61200 00:000:00000 P - 
+ ALGO  A    1 P 00:000:00000 00:000:00000 V - 
+ ALIC  A    1 P 00:000:00000 11:201:00000 P - antenna change
+ ALIC  A    2 P 11:201:00000 00:000:00000 P - 
+ ALIC  A    1 P 00:000:00000 00:000:00000 V - 
+ ALRT  A    1 P 00:000:00000 00:000:00000 P - 
+ ALRT  A    1 P 00:000:00000 00:000:00000 V - 
+ AMC2  A    1 P 00:000:00000 99:238:00000 P - unknown
+ AMC2  A    2 P 99:238:00000 02:165:60660 P - antenna change
+ AMC2  A    3 P 02:165:60660 07:274:66900 P - antenna change
+ AMC2  A    4 P 07:274:66900 00:000:00000 P - 
+ AMC2  A    1 P 00:000:00000 00:000:00000 V - 
+ AOML  A    1 P 00:000:00000 03:220:00000 P - unknown
+ AOML  A    2 P 03:220:00000 00:000:00000 P - 
+ AOML  A    1 P 00:000:00000 00:000:00000 V - 
+ AREQ  A    1 P 00:000:00000 94:088:00000 P - antenna change
+ AREQ  A    2 P 94:088:00000 94:160:01996 P - EQ M8.2 - La Paz, Bolivia
+ AREQ  A    3 P 94:160:01996 96:317:61184 P - EQ M7.7 - near the coast of central Peru
+ AREQ  A    4 P 96:317:61184 01:174:73994 P - EQ M8.4 - near the coast of southern Peru
+ AREQ  A    5 P 01:174:73994 01:188:34724 P - EQ M7.6 - near the coast of southern Peru
+ AREQ  A    6 P 01:188:34724 07:227:85258 P - EQ M8.0 - near the coast of central Peru
+ AREQ  A    7 P 07:227:85258 14:091:85607 P - EQ M8.2 - 94km NW of Iquique, Chile
+ AREQ  A    8 P 14:091:85607 00:000:00000 P - 
+ AREQ  A    1 P 00:000:00000 00:000:00000 V - 
+ AREV  A    1 P 00:000:00000 12:034:00000 P - antenna change
+ AREV  A    2 P 12:034:00000 14:091:85607 P - EQ M8.2 - 94km NW of Iquique, Chile
+ AREV  A    3 P 14:091:85607 00:000:00000 P - 
+ AREV  A    1 P 00:000:00000 00:000:00000 V - 
+ ARTU  A    1 P 00:000:00000 00:000:00000 P - 
+ ARTU  A    1 P 00:000:00000 00:000:00000 V - 
+ ASC1  A    1 P 00:000:00000 00:000:00000 P - 
+ ASC1  A    1 P 00:000:00000 00:000:00000 V - 
+ AUCK  A    1 P 00:000:00000 01:301:08220 P - antenna change
+ AUCK  A    2 P 01:301:08220 02:336:00000 P - receiver change
+ AUCK  A    3 P 02:336:00000 03:009:08700 P - receiver change
+ AUCK  A    4 P 03:009:08700 05:307:14940 P - antenna change
+ AUCK  A    5 P 05:307:14940 11:059:86340 P - antenna change
+ AUCK  A    6 P 11:059:86340 00:000:00000 P - 
+ AUCK  A    1 P 00:000:00000 00:000:00000 V - 
+ BADG  A    1 P 00:000:00000 07:092:00000 P - antenna change
+ BADG  A    2 P 07:092:00000 10:074:00000 P - antenna change
+ BADG  A    3 P 10:074:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ BADG  A    4 P 11:070:20783 00:000:00000 P - 
+ BADG  A    1 P 00:000:00000 00:000:00000 V - 
+ BAHR  A    1 P 00:000:00000 07:228:00000 P - unknown
+ BAHR  A    2 P 07:228:00000 00:000:00000 P - 
+ BAHR  A    1 P 00:000:00000 00:000:00000 V - 
+ BARH  A    1 P 00:000:00000 07:086:00000 P - antenna change
+ BARH  A    2 P 07:086:00000 00:000:00000 P - 
+ BARH  A    1 P 00:000:00000 00:000:00000 V - 
+ BHR1  A    1 P 00:000:00000 07:228:00000 P - unknown
+ BHR1  A    2 P 07:228:00000 00:000:00000 P - 
+ BHR1  A    1 P 00:000:00000 00:000:00000 V - 
+ BILI  A    1 P 00:000:00000 00:000:00000 P - 
+ BILI  A    1 P 00:000:00000 00:000:00000 V - 
+ BJCO  A    1 P 00:000:00000 00:000:00000 P - 
+ BJCO  A    1 P 00:000:00000 00:000:00000 V - 
+ BJFS  A    1 P 00:000:00000 10:142:00000 P - antenna change
+ BJFS  A    2 P 10:142:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ BJFS  A    3 P 11:070:20783 15:330:00000 P - antenna change
+ BJFS  A    4 P 15:330:00000 16:010:00000 P - unknown
+ BJFS  A    5 P 16:010:00000 00:000:00000 P - 
+ BJFS  A    1 P 00:000:00000 00:000:00000 V - 
+ BJNM  A    1 P 00:000:00000 00:000:00000 P - 
+ BJNM  A    1 P 00:000:00000 00:000:00000 V - 
+ BOR1  A    1 P 00:000:00000 99:151:67200 P - antenna change
+ BOR1  A    2 P 99:151:67200 00:000:00000 P - 
+ BOR1  A    1 P 00:000:00000 00:000:00000 V - 
+ BRAZ  A    1 P 00:000:00000 96:242:00000 P - antenna change
+ BRAZ  A    2 P 96:242:00000 98:118:00000 P - antenna change
+ BRAZ  A    3 P 98:118:00000 07:072:00000 P - antenna change
+ BRAZ  A    4 P 07:072:00000 12:262:54840 P - antenna change
+ BRAZ  A    5 P 12:262:54840 12:332:59460 P - antenna change
+ BRAZ  A    6 P 12:332:59460 13:115:73920 P - antenna change
+ BRAZ  A    7 P 13:115:73920 14:337:00000 P - unknown
+ BRAZ  A    8 P 14:337:00000 15:105:59340 P - antenna change
+ BRAZ  A    9 P 15:105:59340 00:000:00000 P - 
+ BRAZ  A    1 P 00:000:00000 00:000:00000 V - 
+ BREW  A    1 P 00:000:00000 00:000:00000 P - 
+ BREW  A    1 P 00:000:00000 00:000:00000 V - 
+ BRFT  A    1 P 00:000:00000 06:129:00000 P - unknown
+ BRFT  A    2 P 06:129:00000 07:177:00000 P - unknown
+ BRFT  A    3 P 07:177:00000 11:005:00000 P - unknown
+ BRFT  A    4 P 11:005:00000 11:105:00000 P - unknown
+ BRFT  A    5 P 11:105:00000 15:004:00000 P - unknown
+ BRFT  A    6 P 15:004:00000 00:000:00000 P - 
+ BRFT  A    1 P 00:000:00000 11:105:00000 V - unknown
+ BRFT  A    2 P 11:105:00000 00:000:00000 V - 
+ BRMU  A    1 P 00:000:00000 03:071:00000 P - antenna change
+ BRMU  A    2 P 03:071:00000 11:271:00000 P - antenna change
+ BRMU  A    3 P 11:271:00000 00:000:00000 P - 
+ BRMU  A    1 P 00:000:00000 00:000:00000 V - 
+ BRST  A    1 P 00:000:00000 06:207:00000 P - antenna change
+ BRST  A    2 P 06:207:00000 07:109:64800 P - antenna change
+ BRST  A    3 P 07:109:64800 08:163:36000 P - antenna change
+ BRST  A    4 P 08:163:36000 11:299:28800 P - antenna change
+ BRST  A    5 P 11:299:28800 00:000:00000 P - 
+ BRST  A    1 P 00:000:00000 00:000:00000 V - 
+ BRUS  A    1 P 00:000:00000 00:118:44100 P - antenna change
+ BRUS  A    2 P 00:118:44100 11:204:00000 P - unknown
+ BRUS  A    3 P 11:204:00000 00:000:00000 P - 
+ BRUS  A    1 P 00:000:00000 00:000:00000 V - 
+ BRUX  A    1 P 00:000:00000 12:088:00000 P - unknown
+ BRUX  A    2 P 12:088:00000 00:000:00000 P - 
+ BRUX  A    1 P 00:000:00000 00:000:00000 V - 
+ BSHM  A    1 P 00:000:00000 00:168:00000 P - unknown
+ BSHM  A    2 P 00:168:00000 02:028:00000 P - unknown
+ BSHM  A    3 P 02:028:00000 09:201:00000 P - antenna change
+ BSHM  A    4 P 09:201:00000 00:000:00000 P - 
+ BSHM  A    1 P 00:000:00000 00:000:00000 V - 
+ BUCU  A    1 P 00:000:00000 99:229:00099 P - EQ M7.6 - western Turkey
+ BUCU  A    2 P 99:229:00099 08:305:36000 P - antenna change
+ BUCU  A    3 P 08:305:36000 00:000:00000 P - 
+ BUCU  A    1 P 00:000:00000 00:000:00000 V - 
+ CAGL  A    1 P 00:000:00000 01:192:00000 P - antenna change
+ CAGL  A    2 P 01:192:00000 00:000:00000 P - 
+ CAGL  A    1 P 00:000:00000 00:000:00000 V - 
+ CAGZ  A    1 P 00:000:00000 00:000:00000 P - 
+ CAGZ  A    1 P 00:000:00000 00:000:00000 V - 
+ CAS1  A    1 P 00:000:00000 98:196:00000 P - unknown
+ CAS1  A    2 P 98:196:00000 99:343:00000 P - receiver change
+ CAS1  A    3 P 99:343:00000 10:032:00000 P - unknown
+ CAS1  A    4 P 10:032:00000 13:345:10800 P - antenna change
+ CAS1  A    5 P 13:345:10800 00:000:00000 P - 
+ CAS1  A    1 P 00:000:00000 00:000:00000 V - 
+ CEDU  A    1 P 00:000:00000 97:253:00000 P - antenna change
+ CEDU  A    2 P 97:253:00000 00:000:00000 P - 
+ CEDU  A    1 P 00:000:00000 00:000:00000 V - 
+ CFAG  A    1 P 00:000:00000 10:058:23652 P - EQ M8.8 - offshore Bio-Bio, Chile
+ CFAG  A    2 P 10:058:23652 00:000:00000 P - 
+ CFAG  A    1 P 00:000:00000 00:000:00000 V - 
+ CHAN  A    1 P 00:000:00000 07:319:00000 P - antenna change
+ CHAN  A    2 P 07:319:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ CHAN  A    3 P 11:070:20783 00:000:00000 P - 
+ CHAN  A    1 P 00:000:00000 00:000:00000 V - 
+ CHAT  A    1 P 00:000:00000 01:332:10800 P - antenna change
+ CHAT  A    2 P 01:332:10800 00:000:00000 P - 
+ CHAT  A    1 P 00:000:00000 00:000:00000 V - 
+ CHPI  A    1 P 00:000:00000 10:058:23652 P - EQ M8.8 - offshore Bio-Bio, Chile
+ CHPI  A    2 P 10:058:23652 13:211:73740 P - antenna change
+ CHPI  A    3 P 13:211:73740 00:000:00000 P - 
+ CHPI  A    1 P 00:000:00000 00:000:00000 V - 
+ CHTI  A    1 P 00:000:00000 00:000:00000 P - 
+ CHTI  A    1 P 00:000:00000 00:000:00000 V - 
+ CHUM  A    1 P 00:000:00000 03:260:00000 P - antenna change
+ CHUM  A    2 P 03:260:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ CHUM  A    3 P 11:070:20783 00:000:00000 P - 
+ CHUM  A    1 P 00:000:00000 00:000:00000 V - 
+ CHUR  A    1 P 00:000:00000 00:201:67080 P - antenna change
+ CHUR  A    2 P 00:201:67080 04:269:73560 P - antenna change
+ CHUR  A    3 P 04:269:73560 05:034:00000 P - antenna change
+ CHUR  A    4 P 05:034:00000 08:088:53220 P - antenna change
+ CHUR  A    5 P 08:088:53220 09:091:00000 P - antenna change
+ CHUR  A    6 P 09:091:00000 10:245:00000 P - antenna change
+ CHUR  A    7 P 10:245:00000 00:000:00000 P - 
+ CHUR  A    1 P 00:000:00000 00:000:00000 V - 
+ CKIS  A    1 P 00:000:00000 11:277:50400 P - antenna change
+ CKIS  A    2 P 11:277:50400 00:000:00000 P - 
+ CKIS  A    1 P 00:000:00000 00:000:00000 V - 
+ CNMR  A    1 P 00:000:00000 05:193:00000 P - unknown
+ CNMR  A    2 P 05:193:00000 08:036:00000 P - antenna change
+ CNMR  A    3 P 08:036:00000 00:000:00000 P - 
+ CNMR  A    1 P 00:000:00000 00:000:00000 V - 
+ COCO  A    1 P 00:000:00000 00:170:53053 P - EQ M7.9 - South Indian Ocean
+ COCO  A    2 P 00:170:53053 04:361:03530 P - EQ M9.1 - off the west coast of northern Sumatra
+ COCO  A    3 P 04:361:03530 05:087:58177 P - EQ M8.6 - northern Sumatra, Indonesia
+ COCO  A    4 P 05:087:58177 07:255:40227 P - EQ M8.5 - southern Sumatra, Indonesia
+ COCO  A    5 P 07:255:40227 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ COCO  A    6 P 12:102:31117 16:062:46188 P - EQ M7.8 - southwest of Sumatra
+ COCO  A    7 P 16:062:46188 00:000:00000 P - 
+ COCO  A    1 P 00:000:00000 00:000:00000 V - 
+ CONZ  A    1 P 00:000:00000 03:099:00000 P - unknown
+ CONZ  A    2 P 03:099:00000 05:137:52200 P - antenna change
+ CONZ  A    3 P 05:137:52200 10:058:23652 P - EQ M8.8 - offshore Bio-Bio, Chile
+ CONZ  A    4 P 10:058:23652 10:064:42427 P - EQ M6.6 - offshore Bio-Bio, Chile
+ CONZ  A    5 P 10:064:42427 11:043:04621 P - EQ M6.1 - Bio-Bio, Chile
+ CONZ  A    6 P 11:043:04621 11:200:73800 P - antenna change
+ CONZ  A    7 P 11:200:73800 00:000:00000 P - 
+ CONZ  A    1 P 00:000:00000 10:058:23652 V - EQ M8.8 - offshore Bio-Bio, Chile
+ CONZ  A    2 P 10:058:23652 00:000:00000 V - 
+ CRAO  A    1 P 00:000:00000 09:063:00000 P - antenna change
+ CRAO  A    2 P 09:063:00000 00:000:00000 P - 
+ CRAO  A    1 P 00:000:00000 00:000:00000 V - 
+ CRO1  A    1 P 00:000:00000 95:286:00000 P - antenna change
+ CRO1  A    2 P 95:286:00000 99:273:61200 P - receiver change
+ CRO1  A    3 P 99:273:61200 00:105:00000 P - receiver change
+ CRO1  A    4 P 00:105:00000 00:319:00000 P - receiver change
+ CRO1  A    5 P 00:319:00000 01:145:00000 P - receiver change
+ CRO1  A    6 P 01:145:00000 05:216:00000 P - antenna change
+ CRO1  A    7 P 05:216:00000 06:055:00000 P - receiver change
+ CRO1  A    8 P 06:055:00000 10:189:00000 P - receiver change
+ CRO1  A    9 P 10:189:00000 15:267:61200 P - antenna change
+ CRO1  A   10 P 15:267:61200 00:000:00000 P - 
+ CRO1  A    1 P 00:000:00000 00:000:00000 V - 
+ DAEJ  A    1 P 00:000:00000 10:258:00000 P - antenna change
+ DAEJ  A    2 P 10:258:00000 11:012:43200 P - antenna change
+ DAEJ  A    3 P 11:012:43200 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ DAEJ  A    4 P 11:070:20783 00:000:00000 P - 
+ DAEJ  A    1 P 00:000:00000 00:000:00000 V - 
+ DARW  A    1 P 00:000:00000 96:183:00000 P - antenna change
+ DARW  A    2 P 96:183:00000 01:292:00000 P - antenna change
+ DARW  A    3 P 01:292:00000 01:348:00000 P - antenna change
+ DARW  A    4 P 01:348:00000 03:094:03600 P - antenna change
+ DARW  A    5 P 03:094:03600 00:000:00000 P - 
+ DARW  A    1 P 00:000:00000 00:000:00000 V - 
+ DAV1  A    1 P 00:000:00000 96:036:00000 P - receiver change
+ DAV1  A    2 P 96:036:00000 99:238:00000 P - receiver change
+ DAV1  A    3 P 99:238:00000 07:213:25200 P - antenna change
+ DAV1  A    4 P 07:213:25200 11:052:00000 P - antenna change
+ DAV1  A    5 P 11:052:00000 00:000:00000 P - 
+ DAV1  A    1 P 00:000:00000 00:000:00000 V - 
+ DGAR  A    1 P 00:000:00000 96:303:00000 P - unknown
+ DGAR  A    2 P 96:303:00000 04:139:00000 P - antenna change
+ DGAR  A    3 P 04:139:00000 04:361:03530 P - EQ M9.1 - off the west coast of northern Sumatra
+ DGAR  A    4 P 04:361:03530 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ DGAR  A    5 P 12:102:31117 00:000:00000 P - 
+ DGAR  A    1 P 00:000:00000 04:361:03530 V - EQ M9.1 - off the west coast of northern Sumatra
+ DGAR  A    2 P 04:361:03530 12:102:31117 V - EQ M8.6 - off the west coast of northern Sumatra
+ DGAR  A    3 P 12:102:31117 00:000:00000 V - 
+ DGAV  A    1 P 00:000:00000 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ DGAV  A    2 P 12:102:31117 00:000:00000 P - 
+ DGAV  A    1 P 00:000:00000 12:102:31117 V - EQ M8.6 - off the west coast of northern Sumatra
+ DGAV  A    2 P 12:102:31117 00:000:00000 V - 
+ DRAG  A    1 P 00:000:00000 00:000:00000 P - 
+ DRAG  A    1 P 00:000:00000 00:000:00000 V - 
+ DRAO  A    1 P 00:000:00000 94:041:64260 P - antenna change
+ DRAO  A    2 P 94:041:64260 12:297:00000 P - unknown
+ DRAO  A    3 P 12:297:00000 13:070:73080 P - antenna change
+ DRAO  A    4 P 13:070:73080 00:000:00000 P - 
+ DRAO  A    1 P 00:000:00000 00:000:00000 V - 
+ DUBO  A    1 P 00:000:00000 96:312:00000 P - unknown
+ DUBO  A    2 P 96:312:00000 97:008:71400 P - antenna change
+ DUBO  A    3 P 97:008:71400 99:277:78360 P - antenna change
+ DUBO  A    4 P 99:277:78360 09:239:66780 P - antenna change
+ DUBO  A    5 P 09:239:66780 00:000:00000 P - 
+ DUBO  A    1 P 00:000:00000 00:000:00000 V - 
+ DUM1  A    1 P 00:000:00000 96:020:00000 P - unknown
+ DUM1  A    2 P 96:020:00000 97:354:00000 P - antenna change
+ DUM1  A    3 P 97:354:00000 98:084:11545 P - EQ M8.1 - Balleny Islands region
+ DUM1  A    4 P 98:084:11545 00:000:00000 P - 
+ DUM1  A    1 P 00:000:00000 00:000:00000 V - 
+ EBRE  A    1 P 00:000:00000 97:105:36780 P - antenna change
+ EBRE  A    2 P 97:105:36780 13:186:37200 P - antenna change
+ EBRE  A    3 P 13:186:37200 14:343:47640 P - antenna change
+ EBRE  A    4 P 14:343:47640 00:000:00000 P - 
+ EBRE  A    1 P 00:000:00000 00:000:00000 V - 
+ EISL  A    1 P 00:000:00000 03:038:79200 P - antenna change
+ EISL  A    2 P 03:038:79200 04:045:54000 P - antenna change
+ EISL  A    3 P 04:045:54000 00:000:00000 P - 
+ EISL  A    1 P 00:000:00000 00:000:00000 V - 
+ FAA1  A    1 P 00:000:00000 12:340:00000 P - antenna change
+ FAA1  A    2 P 12:340:00000 00:000:00000 P - 
+ FAA1  A    1 P 00:000:00000 00:000:00000 V - 
+ FAIR  A    1 P 00:000:00000 96:107:00000 P - antenna change
+ FAIR  A    2 P 96:107:00000 02:307:79961 P - EQ M7.9 - Central Alaska
+ FAIR  A    3 P 02:307:79961 04:357:76200 P - antenna change
+ FAIR  A    4 P 04:357:76200 00:000:00000 P - 
+ FAIR  A    1 P 00:000:00000 00:000:00000 V - 
+ FALK  A    1 P 00:000:00000 10:058:23652 P - EQ M8.8 - offshore Bio-Bio, Chile
+ FALK  A    2 P 10:058:23652 13:321:32696 P - EQ M7.7 - Scotia Sea
+ FALK  A    3 P 13:321:32696 00:000:00000 P - 
+ FALK  A    1 P 00:000:00000 00:000:00000 V - 
+ FLIN  A    1 P 00:000:00000 97:007:72180 P - antenna change
+ FLIN  A    2 P 97:007:72180 99:264:75180 P - antenna change
+ FLIN  A    3 P 99:264:75180 10:355:46800 P - antenna change
+ FLIN  A    4 P 10:355:46800 00:000:00000 P - 
+ FLIN  A    1 P 00:000:00000 00:000:00000 V - 
+ FLRS  A    1 P 00:000:00000 00:000:00000 P - 
+ FLRS  A    1 P 00:000:00000 00:000:00000 V - 
+ FORT  A    1 P 00:000:00000 00:080:50820 P - antenna change
+ FORT  A    2 P 00:080:50820 06:058:53400 P - antenna change
+ FORT  A    3 P 06:058:53400 00:000:00000 P - 
+ FORT  A    1 P 00:000:00000 00:080:50820 V - antenna change
+ FORT  A    2 P 00:080:50820 00:000:00000 V - 
+ FUNC  A    1 P 00:000:00000 08:095:43200 P - antenna change
+ FUNC  A    2 P 08:095:43200 00:000:00000 P - 
+ FUNC  A    1 P 00:000:00000 00:000:00000 V - 
+ GANP  A    1 P 00:000:00000 06:236:58140 P - antenna change
+ GANP  A    2 P 06:236:58140 00:000:00000 P - 
+ GANP  A    1 P 00:000:00000 00:000:00000 V - 
+ GLPS  A    1 P 00:000:00000 08:282:00000 P - receiver change
+ GLPS  A    2 P 08:282:00000 12:318:84000 P - antenna change
+ GLPS  A    3 P 12:318:84000 12:341:78300 P - antenna change
+ GLPS  A    4 P 12:341:78300 00:000:00000 P - 
+ GLPS  A    1 P 00:000:00000 00:000:00000 V - 
+ GLSV  A    1 P 00:000:00000 07:317:00000 P - antenna change
+ GLSV  A    2 P 07:317:00000 09:295:00000 P - non linearity
+ GLSV  A    3 P 09:295:00000 00:000:00000 P - 
+ GLSV  A    1 P 00:000:00000 09:295:00000 V - non linearity
+ GLSV  A    2 P 09:295:00000 00:000:00000 V - 
+ GMAS  A    1 P 00:000:00000 04:044:00000 P - unknown
+ GMAS  A    2 P 04:044:00000 07:342:00000 P - unknown
+ GMAS  A    3 P 07:342:00000 08:043:36000 P - antenna change
+ GMAS  A    4 P 08:043:36000 00:000:00000 P - 
+ GMAS  A    1 P 00:000:00000 00:000:00000 V - 
+ GODE  A    1 P 00:000:00000 12:220:47940 P - antenna change
+ GODE  A    2 P 12:220:47940 12:348:66480 P - antenna change
+ GODE  A    3 P 12:348:66480 13:030:65700 P - antenna change
+ GODE  A    4 P 13:030:65700 00:000:00000 P - 
+ GODE  A    1 P 00:000:00000 00:000:00000 V - 
+ GODZ  A    1 P 00:000:00000 12:220:47940 P - antenna change
+ GODZ  A    2 P 12:220:47940 12:348:66480 P - antenna change
+ GODZ  A    3 P 12:348:66480 13:030:65700 P - antenna change
+ GODZ  A    4 P 13:030:65700 00:000:00000 P - 
+ GODZ  A    1 P 00:000:00000 00:000:00000 V - 
+ GOL2  A    1 P 00:000:00000 95:304:00000 P - antenna change
+ GOL2  A    2 P 95:304:00000 99:289:35204 P - EQ M7.1 - Southern California
+ GOL2  A    3 P 99:289:35204 11:256:00000 P - antenna change
+ GOL2  A    4 P 11:256:00000 00:000:00000 P - 
+ GOL2  A    1 P 00:000:00000 00:000:00000 V - 
+ GOLD  A    1 P 00:000:00000 95:304:00000 P - antenna change
+ GOLD  A    2 P 95:304:00000 99:289:35204 P - EQ M7.1 - Southern California
+ GOLD  A    3 P 99:289:35204 00:000:00000 P - 
+ GOLD  A    1 P 00:000:00000 00:000:00000 V - 
+ GOUG  A    1 P 00:000:00000 07:205:00000 P - cable repair
+ GOUG  A    2 P 07:205:00000 13:258:00000 P - antenna change
+ GOUG  A    3 P 13:258:00000 00:000:00000 P - 
+ GOUG  A    1 P 00:000:00000 00:000:00000 V - 
+ GRAS  A    1 P 00:000:00000 96:277:00000 P - antenna change
+ GRAS  A    2 P 96:277:00000 03:113:00000 P - antenna change
+ GRAS  A    3 P 03:113:00000 04:295:32400 P - antenna change
+ GRAS  A    4 P 04:295:32400 00:000:00000 P - 
+ GRAS  A    1 P 00:000:00000 00:000:00000 V - 
+ GRAZ  A    1 P 00:000:00000 96:177:50400 P - antenna change
+ GRAZ  A    2 P 96:177:50400 01:127:28800 P - antenna change
+ GRAZ  A    3 P 01:127:28800 01:152:00000 P - receiver change
+ GRAZ  A    4 P 01:152:00000 05:081:39000 P - antenna change
+ GRAZ  A    5 P 05:081:39000 05:306:43740 P - antenna change
+ GRAZ  A    6 P 05:306:43740 10:138:32400 P - antenna change
+ GRAZ  A    7 P 10:138:32400 00:000:00000 P - 
+ GRAZ  A    1 P 00:000:00000 00:000:00000 V - 
+ GUAM  A    1 P 00:000:00000 02:116:57967 P - EQ M7.1 - Guam region
+ GUAM  A    2 P 02:116:57967 06:142:00000 P - antenna change
+ GUAM  A    3 P 06:142:00000 00:000:00000 P - 
+ GUAM  A    1 P 00:000:00000 02:116:57967 V - EQ M7.1 - Guam region
+ GUAM  A    2 P 02:116:57967 00:000:00000 V - 
+ GUAO  A    1 P 00:000:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ GUAO  A    2 P 11:070:20783 11:189:00000 P - receiver change
+ GUAO  A    3 P 11:189:00000 00:000:00000 P - 
+ GUAO  A    1 P 00:000:00000 00:000:00000 V - 
+ GUAT  A    1 P 00:000:00000 07:164:70180 P - EQ M6.7 - offshore Guatemala
+ GUAT  A    2 P 07:164:70180 11:332:00000 P - antenna change
+ GUAT  A    3 P 11:332:00000 12:179:00000 P - unknown
+ GUAT  A    4 P 12:179:00000 12:312:59747 P - EQ M7.4 - offshore Guatemala
+ GUAT  A    5 P 12:312:59747 00:000:00000 P - 
+ GUAT  A    1 P 00:000:00000 12:312:59747 V - EQ M7.4 - offshore Guatemala
+ GUAT  A    2 P 12:312:59747 00:000:00000 V - 
+ GUUG  A    1 P 00:000:00000 08:038:00000 P - antenna change
+ GUUG  A    2 P 08:038:00000 11:177:00000 P - antenna change
+ GUUG  A    3 P 11:177:00000 14:260:22485 P - EQ M6.7 - 43km NW of Piti Village, Guam
+ GUUG  A    4 P 14:260:22485 00:000:00000 P - 
+ GUUG  A    1 P 00:000:00000 08:038:00000 V - antenna change
+ GUUG  A    2 P 08:038:00000 00:000:00000 V - 
+ HARB  A    1 P 00:000:00000 11:334:00000 P - antenna change
+ HARB  A    2 P 11:334:00000 00:000:00000 P - 
+ HARB  A    1 P 00:000:00000 00:000:00000 V - 
+ HERS  A    1 P 00:000:00000 98:049:00000 P - antenna change
+ HERS  A    2 P 98:049:00000 99:080:00000 P - start of antenna problems
+ HERS  A    3 P 99:080:00000 01:220:54000 P - antenna change
+ HERS  A    4 P 01:220:54000 10:231:43200 P - antenna change
+ HERS  A    5 P 10:231:43200 00:000:00000 P - 
+ HERS  A    1 P 00:000:00000 00:000:00000 V - 
+ HERT  A    1 P 00:000:00000 07:338:45000 P - antenna change
+ HERT  A    2 P 07:338:45000 00:000:00000 P - 
+ HERT  A    1 P 00:000:00000 00:000:00000 V - 
+ HLFX  A    1 P 00:000:00000 13:221:73380 P - antenna change
+ HLFX  A    2 P 13:221:73380 00:000:00000 P - 
+ HLFX  A    1 P 00:000:00000 00:000:00000 V - 
+ HNLC  A    1 P 00:000:00000 00:000:00000 P - 
+ HNLC  A    1 P 00:000:00000 00:000:00000 V - 
+ HOB2  A    1 P 00:000:00000 97:142:00000 P - receiver change
+ HOB2  A    2 P 97:142:00000 99:228:00000 P - receiver change
+ HOB2  A    3 P 99:228:00000 99:334:00000 P - receiver change
+ HOB2  A    4 P 99:334:00000 04:358:53944 P - EQ M8.1 - north of Macquarie Island
+ HOB2  A    5 P 04:358:53944 00:000:00000 P - 
+ HOB2  A    1 P 00:000:00000 00:000:00000 V - 
+ HOFN  A    1 P 00:000:00000 01:264:64800 P - antenna change
+ HOFN  A    2 P 01:264:64800 04:237:00000 P - non linearity
+ HOFN  A    3 P 04:237:00000 07:266:61200 P - antenna change
+ HOFN  A    4 P 07:266:61200 13:125:43200 P - antenna change
+ HOFN  A    5 P 13:125:43200 14:237:00000 P - unknown
+ HOFN  A    6 P 14:237:00000 00:000:00000 P - 
+ HOFN  A    1 P 00:000:00000 04:237:00000 V - non linearity
+ HOFN  A    2 P 04:237:00000 00:000:00000 V - 
+ HOLB  A    1 P 00:000:00000 94:123:73080 P - antenna change
+ HOLB  A    2 P 94:123:73080 96:089:06000 P - antenna change
+ HOLB  A    3 P 96:089:06000 02:023:08160 P - antenna change
+ HOLB  A    4 P 02:023:08160 07:011:72000 P - antenna change
+ HOLB  A    5 P 07:011:72000 08:214:82800 P - antenna change
+ HOLB  A    6 P 08:214:82800 12:123:00000 P - antenna change
+ HOLB  A    7 P 12:123:00000 12:302:11049 P - EQ M7.8 - Haida Gwaii, Canada
+ HOLB  A    8 P 12:302:11049 13:005:32299 P - EQ M7.5 - Southeastern Alaska
+ HOLB  A    9 P 13:005:32299 14:239:75600 P - antenna change
+ HOLB  A   10 P 14:239:75600 16:167:00000 P - antenna change
+ HOLB  A   11 P 16:167:00000 00:000:00000 P - 
+ HOLB  A    1 P 00:000:00000 00:000:00000 V - 
+ HOLM  A    1 P 00:000:00000 02:221:00000 P - antenna change
+ HOLM  A    2 P 02:221:00000 00:000:00000 P - 
+ HOLM  A    1 P 00:000:00000 00:000:00000 V - 
+ HRAO  A    1 P 00:000:00000 98:014:00000 P - antenna change
+ HRAO  A    2 P 98:014:00000 04:324:37800 P - antenna change
+ HRAO  A    3 P 04:324:37800 06:054:00000 P - antenna change
+ HRAO  A    4 P 06:054:00000 07:116:00000 P - antenna change
+ HRAO  A    5 P 07:116:00000 08:045:32400 P - antenna change
+ HRAO  A    6 P 08:045:32400 09:015:00000 P - receiver change
+ HRAO  A    7 P 09:015:00000 13:052:36000 P - antenna change
+ HRAO  A    8 P 13:052:36000 00:000:00000 P - 
+ HRAO  A    1 P 00:000:00000 00:000:00000 V - 
+ HYDE  A    1 P 00:000:00000 04:361:03530 P - EQ M9.1 - off the west coast of northern Sumatra
+ HYDE  A    2 P 04:361:03530 07:330:00000 P - antenna change
+ HYDE  A    3 P 07:330:00000 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ HYDE  A    4 P 12:102:31117 15:233:00000 P - unknown
+ HYDE  A    5 P 15:233:00000 00:000:00000 P - 
+ HYDE  A    1 P 00:000:00000 00:000:00000 V - 
+ IISC  B    1 P 00:000:00000 04:361:03530 P - EQ M9.1 - off the west coast of northern Sumatra
+ IISC  B    2 P 04:361:03530 08:192:00000 P - antenna change
+ IISC  B    3 P 08:192:00000 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ IISC  B    4 P 12:102:31117 00:000:00000 P - 
+ IISC  B    1 P 00:000:00000 04:361:03530 V - EQ M9.1 - off the west coast of northern Sumatra
+ IISC  B    2 P 04:361:03530 00:000:00000 V - 
+ INVK  A    1 P 00:000:00000 03:233:55800 P - antenna change
+ INVK  A    2 P 03:233:55800 00:000:00000 P - 
+ INVK  A    1 P 00:000:00000 00:000:00000 V - 
+ IQAL  A    1 P 00:000:00000 00:000:00000 P - 
+ IQAL  A    1 P 00:000:00000 00:000:00000 V - 
+ IRKM  A    1 P 00:000:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ IRKM  A    2 P 11:070:20783 00:000:00000 P - 
+ IRKM  A    1 P 00:000:00000 00:000:00000 V - 
+ IRKT  A    1 P 00:000:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ IRKT  A    2 P 11:070:20783 00:000:00000 P - 
+ IRKT  A    1 P 00:000:00000 00:000:00000 V - 
+ ISPA  A    1 P 00:000:00000 12:279:00000 P - antenna change
+ ISPA  A    2 P 12:279:00000 00:000:00000 P - 
+ ISPA  A    1 P 00:000:00000 00:000:00000 V - 
+ JOZE  A    1 P 00:000:00000 04:340:00000 P - unknown
+ JOZE  A    2 P 04:340:00000 00:000:00000 P - 
+ JOZE  A    1 P 00:000:00000 00:000:00000 V - 
+ KARR  A    1 P 00:000:00000 10:139:00000 P - antenna change
+ KARR  A    2 P 10:139:00000 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ KARR  A    3 P 12:102:31117 13:254:00000 P - antenna change
+ KARR  A    4 P 13:254:00000 00:000:00000 P - 
+ KARR  A    1 P 00:000:00000 00:000:00000 V - 
+ KAT1  A    1 P 00:000:00000 00:000:00000 P - 
+ KAT1  A    1 P 00:000:00000 00:000:00000 V - 
+ KELY  B    1 P 00:000:00000 96:096:21480 P - antenna change
+ KELY  B    2 P 96:096:21480 01:257:62280 P - antenna change
+ KELY  B    3 P 01:257:62280 02:278:00000 P - non linearity
+ KELY  B    4 P 02:278:00000 10:295:00000 P - non linearity
+ KELY  B    5 P 10:295:00000 00:000:00000 P - 
+ KELY  B    1 P 00:000:00000 02:278:00000 V - non linearity
+ KELY  B    2 P 02:278:00000 10:295:00000 V - non linearity
+ KELY  B    3 P 10:295:00000 00:000:00000 V - 
+ KERG  A    1 P 00:000:00000 99:091:00000 P - antenna change
+ KERG  A    2 P 99:091:00000 08:210:49200 P - antenna change
+ KERG  A    3 P 08:210:49200 08:249:42000 P - antenna change
+ KERG  A    4 P 08:249:42000 11:046:09000 P - receiver change
+ KERG  A    5 P 11:046:09000 00:000:00000 P - 
+ KERG  A    1 P 00:000:00000 00:000:00000 V - 
+ KIRI  A    1 P 00:000:00000 11:324:03600 P - antenna change
+ KIRI  A    2 P 11:324:03600 14:322:00000 P - antenna change
+ KIRI  A    3 P 14:322:00000 00:000:00000 P - 
+ KIRI  A    1 P 00:000:00000 00:000:00000 V - 
+ KIRU  A    1 P 00:000:00000 95:143:00000 P - antenna change
+ KIRU  A    2 P 95:143:00000 00:273:63480 P - antenna change
+ KIRU  A    3 P 00:273:63480 03:071:43200 P - antenna change
+ KIRU  A    4 P 03:071:43200 13:050:46800 P - antenna change
+ KIRU  A    5 P 13:050:46800 00:000:00000 P - 
+ KIRU  A    1 P 00:000:00000 00:000:00000 V - 
+ KIT3  A    1 P 00:000:00000 12:291:00000 P - antenna change
+ KIT3  A    2 P 12:291:00000 00:000:00000 P - 
+ KIT3  A    1 P 00:000:00000 00:000:00000 V - 
+ KOKB  A    1 P 00:000:00000 96:010:79200 P - antenna change
+ KOKB  A    2 P 96:010:79200 02:267:83880 P - antenna change
+ KOKB  A    3 P 02:267:83880 04:139:77400 P - antenna change
+ KOKB  A    4 P 04:139:77400 00:000:00000 P - 
+ KOKB  A    1 P 00:000:00000 00:000:00000 V - 
+ KOKV  A    1 P 00:000:00000 00:000:00000 P - 
+ KOKV  A    1 P 00:000:00000 00:000:00000 V - 
+ KOSG  A    1 P 00:000:00000 03:076:00000 P - unknown
+ KOSG  A    2 P 03:076:00000 11:256:00000 P - antenna change
+ KOSG  A    3 P 11:256:00000 00:000:00000 P - 
+ KOSG  A    1 P 00:000:00000 00:000:00000 V - 
+ KOUR  A    1 P 00:000:00000 97:279:00000 P - antenna change
+ KOUR  A    2 P 97:279:00000 00:067:00000 P - receiver change
+ KOUR  A    3 P 00:067:00000 02:030:00000 P - antenna change
+ KOUR  A    4 P 02:030:00000 06:183:00000 P - unknown
+ KOUR  A    5 P 06:183:00000 07:171:45000 P - antenna change
+ KOUR  A    6 P 07:171:45000 08:015:50400 P - antenna change
+ KOUR  A    7 P 08:015:50400 12:325:46800 P - antenna change
+ KOUR  A    8 P 12:325:46800 00:000:00000 P - 
+ KOUR  A    1 P 00:000:00000 00:000:00000 V - 
+ KWJ1  A    1 P 00:000:00000 00:000:00000 P - 
+ KWJ1  A    1 P 00:000:00000 00:000:00000 V - 
+ LAUT  A    1 P 00:000:00000 06:123:55600 P - EQ M8.0 - Tonga
+ LAUT  A    2 P 06:123:55600 12:116:06120 P - antenna change
+ LAUT  A    3 P 12:116:06120 00:000:00000 P - 
+ LAUT  A    1 P 00:000:00000 00:000:00000 V - 
+ LHAS  A    1 P 00:000:00000 97:240:00000 P - antenna change
+ LHAS  A    2 P 97:240:00000 03:183:00000 P - unknown
+ LHAS  A    3 P 03:183:00000 06:209:45000 P - antenna change
+ LHAS  A    4 P 06:209:45000 00:000:00000 P - 
+ LHAS  A    1 P 00:000:00000 00:000:00000 V - 
+ LHAZ  A    1 P 00:000:00000 07:059:32400 P - antenna change
+ LHAZ  A    2 P 07:059:32400 08:280:30646 P - EQ M6.3 - eastern Xizang
+ LHAZ  A    3 P 08:280:30646 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ LHAZ  A    4 P 11:070:20783 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ LHAZ  A    5 P 12:102:31117 13:255:29400 P - antenna change
+ LHAZ  A    6 P 13:255:29400 14:042:28800 P - antenna change
+ LHAZ  A    7 P 14:042:28800 00:000:00000 P - 
+ LHAZ  A    1 P 00:000:00000 00:000:00000 V - 
+ LMMF  A    1 P 00:000:00000 09:286:46800 P - antenna change
+ LMMF  A    2 P 09:286:46800 13:175:46800 P - antenna change
+ LMMF  A    3 P 13:175:46800 00:000:00000 P - 
+ LMMF  A    1 P 00:000:00000 00:000:00000 V - 
+ LPAL  A    1 P 00:000:00000 08:191:36000 P - antenna change
+ LPAL  A    2 P 08:191:36000 00:000:00000 P - 
+ LPAL  A    1 P 00:000:00000 00:000:00000 V - 
+ LPGS  A    1 P 00:000:00000 98:055:00000 P - unknown
+ LPGS  A    2 P 98:055:00000 10:058:23652 P - EQ M8.8 - offshore Bio-Bio, Chile
+ LPGS  A    3 P 10:058:23652 12:075:00000 P - antenna change
+ LPGS  A    4 P 12:075:00000 12:278:43200 P - antenna change
+ LPGS  A    5 P 12:278:43200 15:259:82473 P - EQ M8.3 - offshore Illapel, Chile
+ LPGS  A    6 P 15:259:82473 00:000:00000 P - 
+ LPGS  A    1 P 00:000:00000 00:000:00000 V - 
+ LROC  A    1 P 00:000:00000 14:277:00000 P - unknown
+ LROC  A    2 P 14:277:00000 00:000:00000 P - 
+ LROC  A    1 P 00:000:00000 00:000:00000 V - 
+ MAC1  A    1 P 00:000:00000 95:178:00000 P - receiver change
+ MAC1  A    2 P 95:178:00000 98:084:11545 P - EQ M8.1 - Balleny Islands region
+ MAC1  A    3 P 98:084:11545 04:358:53944 P - EQ M8.1 - north of Macquarie Island
+ MAC1  A    4 P 04:358:53944 12:174:16277 P - EQ M5.7 - Macquarie Island region
+ MAC1  A    5 P 12:174:16277 00:000:00000 P - 
+ MAC1  A    1 P 00:000:00000 04:358:53944 V - EQ M8.1 - north of Macquarie Island
+ MAC1  A    2 P 04:358:53944 00:000:00000 V - 
+ MAL2  A    1 P 00:000:00000 08:255:31500 P - antenna change
+ MAL2  A    2 P 08:255:31500 13:094:43200 P - antenna change
+ MAL2  A    3 P 13:094:43200 00:000:00000 P - 
+ MAL2  A    1 P 00:000:00000 00:000:00000 V - 
+ MALI  A    1 P 00:000:00000 97:296:49020 P - antenna change
+ MALI  A    2 P 97:296:49020 01:116:00000 P - receiver change
+ MALI  A    3 P 01:116:00000 00:000:00000 P - 
+ MALI  A    1 P 00:000:00000 00:000:00000 V - 
+ MAR6  A    1 P 00:000:00000 00:000:00000 P - 
+ MAR6  A    1 P 00:000:00000 00:000:00000 V - 
+ MAS1  A    1 P 00:000:00000 96:109:00000 P - antenna change
+ MAS1  A    2 P 96:109:00000 99:226:00000 P - receiver change
+ MAS1  A    3 P 99:226:00000 00:355:00000 P - receiver change
+ MAS1  A    4 P 00:355:00000 08:189:50400 P - antenna change
+ MAS1  A    5 P 08:189:50400 12:170:51600 P - antenna change
+ MAS1  A    6 P 12:170:51600 00:000:00000 P - 
+ MAS1  A    1 P 00:000:00000 00:000:00000 V - 
+ MAT1  A    1 P 00:000:00000 09:154:00000 P - antenna change
+ MAT1  A    2 P 09:154:00000 00:000:00000 P - 
+ MAT1  A    1 P 00:000:00000 00:000:00000 V - 
+ MATE  A    1 P 00:000:00000 96:109:00000 P - unknown
+ MATE  A    2 P 96:109:00000 96:191:00000 P - antenna change
+ MATE  A    3 P 96:191:00000 99:169:00000 P - antenna change
+ MATE  A    4 P 99:169:00000 08:329:00000 P - antenna change
+ MATE  A    5 P 08:329:00000 00:000:00000 P - 
+ MATE  A    1 P 00:000:00000 00:000:00000 V - 
+ MAUI  A    1 P 00:000:00000 00:000:00000 P - 
+ MAUI  A    1 P 00:000:00000 00:000:00000 V - 
+ MAW1  A    1 P 00:000:00000 00:000:00000 P - 
+ MAW1  A    1 P 00:000:00000 00:000:00000 V - 
+ MBAR  A    1 P 00:000:00000 04:136:00000 P - unknown
+ MBAR  A    2 P 04:136:00000 11:095:46800 P - receiver change
+ MBAR  A    3 P 11:095:46800 00:000:00000 P - 
+ MBAR  A    1 P 00:000:00000 00:000:00000 V - 
+ MCIL  A    1 P 00:000:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ MCIL  A    2 P 11:070:20783 13:017:00000 P - antenna change
+ MCIL  A    3 P 13:017:00000 00:000:00000 P - 
+ MCIL  A    1 P 00:000:00000 00:000:00000 V - 
+ MCM4  A    1 P 00:000:00000 99:037:00000 P - unknown
+ MCM4  A    2 P 99:037:00000 99:250:71220 P - receiver change
+ MCM4  A    3 P 99:250:71220 02:003:00000 P - receiver change
+ MCM4  A    4 P 02:003:00000 00:000:00000 P - 
+ MCM4  A    1 P 00:000:00000 00:000:00000 V - 
+ MDO1  A    1 P 00:000:00000 04:342:00000 P - receiver change
+ MDO1  A    2 P 04:342:00000 13:053:79200 P - antenna change
+ MDO1  A    3 P 13:053:79200 13:221:02460 P - antenna change
+ MDO1  A    4 P 13:221:02460 00:000:00000 P - 
+ MDO1  A    1 P 00:000:00000 00:000:00000 V - 
+ MDVJ  A    1 P 00:000:00000 00:000:00000 P - 
+ MDVJ  A    1 P 00:000:00000 00:000:00000 V - 
+ MDVO  A    1 P 00:000:00000 95:186:00000 P - antenna change
+ MDVO  A    2 P 95:186:00000 96:207:00000 P - unknown
+ MDVO  A    3 P 96:207:00000 02:352:00000 P - unknown
+ MDVO  A    4 P 02:352:00000 00:000:00000 P - 
+ MDVO  A    1 P 00:000:00000 00:000:00000 V - 
+ MEDI  A    1 P 00:000:00000 97:173:00000 P - non linearity
+ MEDI  A    2 P 97:173:00000 01:093:00000 P - antenna change
+ MEDI  A    3 P 01:093:00000 00:000:00000 P - 
+ MEDI  A    1 P 00:000:00000 97:173:00000 V - non linearity
+ MEDI  A    2 P 97:173:00000 00:000:00000 V - 
+ METS  A    1 P 00:000:00000 10:231:52260 P - antenna change
+ METS  A    2 P 10:231:52260 11:340:00000 P - unknown
+ METS  A    3 P 11:340:00000 13:179:42900 P - antenna change
+ METS  A    4 P 13:179:42900 00:000:00000 P - 
+ METS  A    1 P 00:000:00000 00:000:00000 V - 
+ MKEA  A    1 P 00:000:00000 06:288:61669 P - EQ M6.7 - Hawaii region, Hawaii
+ MKEA  A    2 P 06:288:61669 15:023:00000 P - antenna change
+ MKEA  A    3 P 15:023:00000 00:000:00000 P - 
+ MKEA  A    1 P 00:000:00000 00:000:00000 V - 
+ MOBS  A    1 P 00:000:00000 04:358:53944 P - EQ M8.1 - north of Macquarie Island
+ MOBS  A    2 P 04:358:53944 00:000:00000 P - 
+ MOBS  A    1 P 00:000:00000 00:000:00000 V - 
+ MONP  A    1 P 00:000:00000 95:213:68400 P - antenna change
+ MONP  A    2 P 95:213:68400 99:289:35204 P - EQ M7.1 - Southern California
+ MONP  A    3 P 99:289:35204 00:082:80160 P - antenna change
+ MONP  A    4 P 00:082:80160 10:094:81643 P - EQ M7.2 - Baja California, Mexico
+ MONP  A    5 P 10:094:81643 11:188:00000 P - unknown
+ MONP  A    6 P 11:188:00000 12:268:00000 P - unknown
+ MONP  A    7 P 12:268:00000 14:210:00000 P - unknown
+ MONP  A    8 P 14:210:00000 00:000:00000 P - 
+ MONP  A    1 P 00:000:00000 00:000:00000 V - 
+ MQZG  A    1 P 00:000:00000 01:246:00000 P - antenna change
+ MQZG  A    2 P 01:246:00000 04:358:53944 P - EQ M8.1 - north of Macquarie Island
+ MQZG  A    3 P 04:358:53944 05:059:10800 P - antenna change
+ MQZG  A    4 P 05:059:10800 09:196:33749 P - EQ M7.8 - off the west coast of the South Island of New Zealand
+ MQZG  A    5 P 09:196:33749 10:246:59748 P - EQ M7.0 - South Island of New Zealand
+ MQZG  A    6 P 10:246:59748 11:052:85903 P - EQ M6.1 - South Island of New Zealand
+ MQZG  A    7 P 11:052:85903 11:164:08449 P - EQ M5.9 - South Island of New Zealand
+ MQZG  A    8 P 11:164:08449 11:357:08282 P - EQ M5.9 - South Island of New Zealand
+ MQZG  A    9 P 11:357:08282 16:045:00824 P - EQ M5.8 - South Island of New Zealand
+ MQZG  A   10 P 16:045:00824 00:000:00000 P - 
+ MQZG  A    1 P 00:000:00000 00:000:00000 V - 
+ NAIN  A    1 P 00:000:00000 00:000:00000 P - 
+ NAIN  A    1 P 00:000:00000 00:000:00000 V - 
+ NAMA  A    1 P 00:000:00000 00:000:00000 P - 
+ NAMA  A    1 P 00:000:00000 00:000:00000 V - 
+ NANO  A    1 P 00:000:00000 96:045:66000 P - receiver change
+ NANO  A    2 P 96:045:66000 03:009:82800 P - antenna change
+ NANO  A    3 P 03:009:82800 09:268:71400 P - antenna change
+ NANO  A    4 P 09:268:71400 13:005:32299 P - EQ M7.5 - Southeastern Alaska
+ NANO  A    5 P 13:005:32299 00:000:00000 P - 
+ NANO  A    1 P 00:000:00000 00:000:00000 V - 
+ NAUR  A    1 P 00:000:00000 07:091:74396 P - EQ M8.1 - Solomon Islands
+ NAUR  A    2 P 07:091:74396 10:196:00000 P - antenna change
+ NAUR  A    3 P 10:196:00000 00:000:00000 P - 
+ NAUR  A    1 P 00:000:00000 00:000:00000 V - 
+ NICO  A    1 P 00:000:00000 99:233:32400 P - antenna change
+ NICO  A    2 P 99:233:32400 08:162:39600 P - antenna change
+ NICO  A    3 P 08:162:39600 13:197:39600 P - antenna change
+ NICO  A    4 P 13:197:39600 00:000:00000 P - 
+ NICO  A    1 P 00:000:00000 00:000:00000 V - 
+ NIST  A    1 P 00:000:00000 13:326:00000 P - unknown
+ NIST  A    2 P 13:326:00000 00:000:00000 P - 
+ NIST  A    1 P 00:000:00000 00:000:00000 V - 
+ NISU  A    1 P 00:000:00000 06:090:00000 P - unknown
+ NISU  A    2 P 06:090:00000 06:110:00000 P - unknown
+ NISU  A    3 P 06:110:00000 06:165:00000 P - unknown
+ NISU  A    4 P 06:165:00000 00:000:00000 P - 
+ NISU  A    1 P 00:000:00000 00:000:00000 V - 
+ NIUM  A    1 P 00:000:00000 06:123:55600 P - EQ M8.0 - Tonga
+ NIUM  A    2 P 06:123:55600 09:272:64091 P - EQ M8.1 - Samoa Islands region
+ NIUM  A    3 P 09:272:64091 14:072:05400 P - antenna change
+ NIUM  A    4 P 14:072:05400 00:000:00000 P - 
+ NIUM  A    1 P 00:000:00000 00:000:00000 V - 
+ NKLG  A    1 P 00:000:00000 10:125:57600 P - antenna change
+ NKLG  A    2 P 10:125:57600 00:000:00000 P - 
+ NKLG  A    1 P 00:000:00000 00:000:00000 V - 
+ NLIB  A    1 P 00:000:00000 10:349:69300 P - antenna change
+ NLIB  A    2 P 10:349:69300 15:018:00000 P - unknown
+ NLIB  A    3 P 15:018:00000 00:000:00000 P - 
+ NLIB  A    1 P 00:000:00000 00:000:00000 V - 
+ NNOR  A    1 P 00:000:00000 12:276:18300 P - antenna change
+ NNOR  A    2 P 12:276:18300 00:000:00000 P - 
+ NNOR  A    1 P 00:000:00000 00:000:00000 V - 
+ NOT1  A    1 P 00:000:00000 00:000:00000 P - 
+ NOT1  A    1 P 00:000:00000 00:000:00000 V - 
+ NOUM  A    1 P 00:000:00000 97:342:00000 P - antenna change
+ NOUM  A    2 P 97:342:00000 01:327:10800 P - antenna change
+ NOUM  A    3 P 01:327:10800 03:361:57660 P - EQ M7.3 - southeast of the Loyalty Islands
+ NOUM  A    4 P 03:361:57660 00:000:00000 P - 
+ NOUM  A    1 P 00:000:00000 00:000:00000 V - 
+ NRC1  A    1 P 00:000:00000 96:183:00000 P - antenna change
+ NRC1  A    2 P 96:183:00000 04:196:57600 P - antenna change
+ NRC1  A    3 P 04:196:57600 11:175:51300 P - antenna change
+ NRC1  A    4 P 11:175:51300 00:000:00000 P - 
+ NRC1  A    1 P 00:000:00000 00:000:00000 V - 
+ NRIL  A    1 P 00:000:00000 00:000:00000 P - 
+ NRIL  A    1 P 00:000:00000 00:000:00000 V - 
+ NRMD  A    1 P 00:000:00000 07:084:02402 P - EQ M7.1 - Vanuatu
+ NRMD  A    2 P 07:084:02402 08:100:45973 P - EQ M7.3 - Loyalty Islands, New Caledonia
+ NRMD  A    3 P 08:100:45973 09:275:00000 P - antenna change
+ NRMD  A    4 P 09:275:00000 10:359:47797 P - EQ M7.3 - Vanuatu region
+ NRMD  A    5 P 10:359:47797 00:000:00000 P - 
+ NRMD  A    1 P 00:000:00000 00:000:00000 V - 
+ NURK  A    1 P 00:000:00000 10:229:00000 P - antenna change
+ NURK  A    2 P 10:229:00000 00:000:00000 P - 
+ NURK  A    1 P 00:000:00000 00:000:00000 V - 
+ NYA1  A    1 P 00:000:00000 99:153:02400 P - antenna change
+ NYA1  A    2 P 99:153:02400 00:000:00000 P - 
+ NYA1  A    1 P 00:000:00000 00:000:00000 V - 
+ NYAL  A    1 P 00:000:00000 98:091:00000 P - non linearity
+ NYAL  A    2 P 98:091:00000 99:239:00000 P - receiver change
+ NYAL  A    3 P 99:239:00000 00:340:00000 P - unknown
+ NYAL  A    4 P 00:340:00000 01:249:00000 P - unknown
+ NYAL  A    5 P 01:249:00000 00:000:00000 P - 
+ NYAL  A    1 P 00:000:00000 98:091:00000 V - non linearity
+ NYAL  A    2 P 98:091:00000 00:000:00000 V - 
+ OHI2  A    1 P 00:000:00000 03:054:00000 P - antenna change
+ OHI2  A    2 P 03:054:00000 09:030:63900 P - antenna change
+ OHI2  A    3 P 09:030:63900 13:038:75600 P - antenna change
+ OHI2  A    4 P 13:038:75600 13:321:32696 P - EQ M7.7 - Scotia Sea
+ OHI2  A    5 P 13:321:32696 14:061:57600 P - antenna change
+ OHI2  A    6 P 14:061:57600 00:000:00000 P - 
+ OHI2  A    1 P 00:000:00000 00:000:00000 V - 
+ OHI3  A    1 P 00:000:00000 10:022:71100 P - antenna change
+ OHI3  A    2 P 10:022:71100 11:034:79200 P - antenna change
+ OHI3  A    3 P 11:034:79200 13:038:75600 P - antenna change
+ OHI3  A    4 P 13:038:75600 13:271:57600 P - antenna change
+ OHI3  A    5 P 13:271:57600 13:321:32696 P - EQ M7.7 - Scotia Sea
+ OHI3  A    6 P 13:321:32696 00:000:00000 P - 
+ OHI3  A    1 P 00:000:00000 00:000:00000 V - 
+ OHIG  A    1 P 00:000:00000 00:000:00000 P - 
+ OHIG  A    1 P 00:000:00000 00:000:00000 V - 
+ ONSA  A    1 P 00:000:00000 99:033:00000 P - antenna change
+ ONSA  A    2 P 99:033:00000 00:000:00000 P - 
+ ONSA  A    1 P 00:000:00000 00:000:00000 V - 
+ OSN1  A    1 P 00:000:00000 04:361:03530 P - EQ M9.1 - off the west coast of northern Sumatra
+ OSN1  A    2 P 04:361:03530 09:203:00000 P - unknown
+ OSN1  A    3 P 09:203:00000 00:000:00000 P - 
+ OSN1  A    1 P 00:000:00000 00:000:00000 V - 
+ OUS2  A    1 P 00:000:00000 01:286:25200 P - antenna change
+ OUS2  A    2 P 01:286:25200 03:233:43970 P - EQ M7.2 - South Island of New Zealand
+ OUS2  A    3 P 03:233:43970 04:358:53944 P - EQ M8.1 - north of Macquarie Island
+ OUS2  A    4 P 04:358:53944 06:170:25200 P - antenna change
+ OUS2  A    5 P 06:170:25200 06:239:79200 P - antenna change
+ OUS2  A    6 P 06:239:79200 09:196:33749 P - EQ M7.8 - off the west coast of the South Island of New Zealand
+ OUS2  A    7 P 09:196:33749 11:174:18000 P - antenna change
+ OUS2  A    8 P 11:174:18000 00:000:00000 P - 
+ OUS2  A    1 P 00:000:00000 00:000:00000 V - 
+ PARC  A    1 P 00:000:00000 01:345:74520 P - antenna change
+ PARC  A    2 P 01:345:74520 09:305:00000 P - antenna change
+ PARC  A    3 P 09:305:00000 11:237:00000 P - unknown
+ PARC  A    4 P 11:237:00000 00:000:00000 P - 
+ PARC  A    1 P 00:000:00000 00:000:00000 V - 
+ PDEL  A    1 P 00:000:00000 06:347:00000 P - unknown
+ PDEL  A    2 P 06:347:00000 08:096:45000 P - antenna change
+ PDEL  A    3 P 08:096:45000 12:291:43200 P - antenna change
+ PDEL  A    4 P 12:291:43200 00:000:00000 P - 
+ PDEL  A    1 P 00:000:00000 00:000:00000 V - 
+ PERT  A    1 P 00:000:00000 94:117:00000 P - antenna change
+ PERT  A    2 P 94:117:00000 01:158:00000 P - antenna change
+ PERT  A    3 P 01:158:00000 03:156:00000 P - antenna change
+ PERT  A    4 P 03:156:00000 08:312:00000 P - unknown
+ PERT  A    5 P 08:312:00000 09:322:00000 P - unknown
+ PERT  A    6 P 09:322:00000 09:349:00000 P - unknown
+ PERT  A    7 P 09:349:00000 12:297:19800 P - antenna change
+ PERT  A    8 P 12:297:19800 00:000:00000 P - 
+ PERT  A    1 P 00:000:00000 00:000:00000 V - 
+ PIE1  A    1 P 00:000:00000 99:152:00000 P - antenna change
+ PIE1  A    2 P 99:152:00000 07:023:64800 P - antenna change
+ PIE1  A    3 P 07:023:64800 00:000:00000 P - 
+ PIE1  A    1 P 00:000:00000 99:152:00000 V - antenna change
+ PIE1  A    2 P 99:152:00000 07:023:64800 V - antenna change
+ PIE1  A    3 P 07:023:64800 00:000:00000 V - 
+ POHN  A    1 P 00:000:00000 11:010:00000 P - unknown
+ POHN  A    2 P 11:010:00000 11:341:00000 P - antenna change
+ POHN  A    3 P 11:341:00000 14:316:14400 P - antenna change
+ POHN  A    4 P 14:316:14400 15:226:00000 P - antenna change
+ POHN  A    5 P 15:226:00000 00:000:00000 P - 
+ POHN  A    1 P 00:000:00000 00:000:00000 V - 
+ POL2  A    1 P 00:000:00000 01:157:00000 P - receiver change
+ POL2  A    2 P 01:157:00000 02:064:00000 P - antenna change
+ POL2  A    3 P 02:064:00000 09:296:00000 P - antenna change
+ POL2  A    4 P 09:296:00000 00:000:00000 P - 
+ POL2  A    1 P 00:000:00000 00:000:00000 V - 
+ POLV  A    1 P 00:000:00000 13:044:39600 P - antenna change
+ POLV  A    2 P 13:044:39600 00:000:00000 P - 
+ POLV  A    1 P 00:000:00000 00:000:00000 V - 
+ POTS  A    1 P 00:000:00000 94:301:00000 P - antenna change
+ POTS  A    2 P 94:301:00000 95:276:28800 P - antenna change
+ POTS  A    3 P 95:276:28800 09:105:47700 P - antenna change
+ POTS  A    4 P 09:105:47700 11:046:61200 P - antenna change
+ POTS  A    5 P 11:046:61200 00:000:00000 P - 
+ POTS  A    1 P 00:000:00000 00:000:00000 V - 
+ PRDS  A    1 P 00:000:00000 02:305:00000 P - antenna change
+ PRDS  A    2 P 02:305:00000 03:141:00000 P - antenna change
+ PRDS  A    3 P 03:141:00000 06:199:66900 P - antenna change
+ PRDS  A    4 P 06:199:66900 12:209:72000 P - antenna change
+ PRDS  A    5 P 12:209:72000 00:000:00000 P - 
+ PRDS  A    1 P 00:000:00000 00:000:00000 V - 
+ PRE1  A    1 P 00:000:00000 06:339:00000 P - unknown
+ PRE1  A    2 P 06:339:00000 07:130:00000 P - unknown
+ PRE1  A    3 P 07:130:00000 00:000:00000 P - 
+ PRE1  A    1 P 00:000:00000 00:000:00000 V - 
+ QAQ1  A    1 P 00:000:00000 03:248:43200 P - antenna change
+ QAQ1  A    2 P 03:248:43200 03:272:40860 P - antenna change
+ QAQ1  A    3 P 03:272:40860 03:364:61740 P - antenna change
+ QAQ1  A    4 P 03:364:61740 09:238:00000 P - non linearity
+ QAQ1  A    5 P 09:238:00000 13:180:00000 P - non linearity
+ QAQ1  A    6 P 13:180:00000 00:000:00000 P - 
+ QAQ1  A    1 P 00:000:00000 09:238:00000 V - non linearity
+ QAQ1  A    2 P 09:238:00000 13:180:00000 V - non linearity
+ QAQ1  A    3 P 13:180:00000 00:000:00000 V - 
+ QIKI  A    1 P 00:000:00000 00:000:00000 P - 
+ QIKI  A    1 P 00:000:00000 00:000:00000 V - 
+ QUIN  A    1 P 00:000:00000 98:091:70200 P - antenna change
+ QUIN  A    2 P 98:091:70200 10:224:03900 P - antenna change
+ QUIN  A    3 P 10:224:03900 00:000:00000 P - 
+ QUIN  A    1 P 00:000:00000 00:000:00000 V - 
+ RABT  A    1 P 00:000:00000 00:000:00000 P - 
+ RABT  A    1 P 00:000:00000 00:000:00000 V - 
+ RAMO  A    1 P 00:000:00000 00:199:00000 P - antenna change
+ RAMO  A    2 P 00:199:00000 04:078:00000 P - antenna change
+ RAMO  A    3 P 04:078:00000 00:000:00000 P - 
+ RAMO  A    1 P 00:000:00000 00:000:00000 V - 
+ RCMN  A    1 P 00:000:00000 00:000:00000 P - 
+ RCMN  A    1 P 00:000:00000 00:000:00000 V - 
+ RECF  A    1 P 00:000:00000 04:248:00000 P - antenna change
+ RECF  A    2 P 04:248:00000 07:128:00000 P - antenna change
+ RECF  A    3 P 07:128:00000 12:241:62520 P - antenna change
+ RECF  A    4 P 12:241:62520 12:327:57600 P - receiver change
+ RECF  A    5 P 12:327:57600 15:079:53220 P - antenna change
+ RECF  A    6 P 15:079:53220 00:000:00000 P - 
+ RECF  A    1 P 00:000:00000 00:000:00000 V - 
+ RESO  A    1 P 00:000:00000 04:051:00000 P - receiver change
+ RESO  A    2 P 04:051:00000 00:000:00000 P - 
+ RESO  A    1 P 00:000:00000 00:000:00000 V - 
+ REUN  A    1 P 00:000:00000 03:094:36000 P - antenna change
+ REUN  A    2 P 03:094:36000 08:338:43200 P - antenna change
+ REUN  A    3 P 08:338:43200 00:000:00000 P - 
+ REUN  A    1 P 00:000:00000 08:338:43200 V - antenna change
+ REUN  A    2 P 08:338:43200 00:000:00000 V - 
+ RIGA  A    1 P 00:000:00000 05:013:36480 P - antenna change
+ RIGA  A    2 P 05:013:36480 06:142:00000 P - antenna change
+ RIGA  A    3 P 06:142:00000 07:350:43200 P - antenna change
+ RIGA  A    4 P 07:350:43200 13:345:54000 P - antenna change
+ RIGA  A    5 P 13:345:54000 14:354:00000 P - unknown
+ RIGA  A    6 P 14:354:00000 00:000:00000 P - 
+ RIGA  A    1 P 00:000:00000 00:000:00000 V - 
+ RIO2  A    1 P 00:000:00000 12:283:77400 P - antenna change
+ RIO2  A    2 P 12:283:77400 00:000:00000 P - 
+ RIO2  A    1 P 00:000:00000 00:000:00000 V - 
+ RIOG  A    1 P 00:000:00000 96:317:00000 P - antenna change
+ RIOG  A    2 P 96:317:00000 99:337:47700 P - antenna change
+ RIOG  A    3 P 99:337:47700 07:036:00000 P - unknown
+ RIOG  A    4 P 07:036:00000 00:000:00000 P - 
+ RIOG  A    1 P 00:000:00000 00:000:00000 V - 
+ SALU  A    1 P 00:000:00000 13:162:62700 P - antenna change
+ SALU  A    2 P 13:162:62700 14:311:75300 P - antenna change
+ SALU  A    3 P 14:311:75300 16:160:60300 P - antenna change
+ SALU  A    4 P 16:160:60300 00:000:00000 P - 
+ SALU  A    1 P 00:000:00000 00:000:00000 V - 
+ SANT  A    1 P 00:000:00000 96:199:00000 P - antenna change
+ SANT  A    2 P 96:199:00000 10:058:23652 P - EQ M8.8 - offshore Bio-Bio, Chile
+ SANT  A    3 P 10:058:23652 15:259:82472 P - EQ M8.3 - offshore Illapel, Chile
+ SANT  A    4 P 15:259:82472 00:000:00000 P - 
+ SANT  A    1 P 00:000:00000 15:259:82472 V - EQ M8.3 - offshore Illapel, Chile
+ SANT  A    2 P 15:259:82472 00:000:00000 V - 
+ SAVO  A    1 P 00:000:00000 00:000:00000 P - 
+ SAVO  A    1 P 00:000:00000 00:000:00000 V - 
+ SCH2  A    1 P 00:000:00000 03:286:00000 P - antenna change
+ SCH2  A    2 P 03:286:00000 08:280:51300 P - antenna change
+ SCH2  A    3 P 08:280:51300 00:000:00000 P - 
+ SCH2  A    1 P 00:000:00000 00:000:00000 V - 
+ SCOR  A    1 P 00:000:00000 00:000:00000 P - 
+ SCOR  A    1 P 00:000:00000 00:000:00000 V - 
+ SCUB  A    1 P 00:000:00000 96:104:00000 P - unknown
+ SCUB  A    2 P 96:104:00000 98:091:00000 P - antenna change
+ SCUB  A    3 P 98:091:00000 00:342:00000 P - antenna change
+ SCUB  A    4 P 00:342:00000 14:352:32400 P - antenna change
+ SCUB  A    5 P 14:352:32400 00:000:00000 P - 
+ SCUB  A    1 P 00:000:00000 00:000:00000 V - 
+ SFER  A    1 P 00:000:00000 97:365:00000 P - antenna change
+ SFER  A    2 P 97:365:00000 98:035:00000 P - antenna change
+ SFER  A    3 P 98:035:00000 98:153:00000 P - antenna change
+ SFER  A    4 P 98:153:00000 02:064:00000 P - antenna change
+ SFER  A    5 P 02:064:00000 03:155:00000 P - unknown
+ SFER  A    6 P 03:155:00000 05:199:00000 P - unknown
+ SFER  A    7 P 05:199:00000 14:030:42000 P - antenna change
+ SFER  A    8 P 14:030:42000 00:000:00000 P - 
+ SFER  A    1 P 00:000:00000 00:000:00000 V - 
+ SHAO  A    1 P 00:000:00000 02:183:00000 P - receiver change
+ SHAO  A    2 P 02:183:00000 04:364:07200 P - receiver change
+ SHAO  A    3 P 04:364:07200 07:270:00000 P - receiver change
+ SHAO  A    4 P 07:270:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ SHAO  A    5 P 11:070:20783 00:000:00000 P - 
+ SHAO  A    1 P 00:000:00000 00:000:00000 V - 
+ SOFI  A    1 P 00:000:00000 99:229:00099 P - EQ M7.6 - western Turkey
+ SOFI  A    2 P 99:229:00099 10:119:46800 P - antenna change
+ SOFI  A    3 P 10:119:46800 00:000:00000 P - 
+ SOFI  A    1 P 00:000:00000 00:000:00000 V - 
+ STHL  A    1 P 00:000:00000 00:000:00000 P - 
+ STHL  A    1 P 00:000:00000 00:000:00000 V - 
+ STJO  A    1 P 00:000:00000 94:073:72180 P - antenna change
+ STJO  A    2 P 94:073:72180 95:061:78960 P - antenna change
+ STJO  A    3 P 95:061:78960 95:307:45000 P - antenna change
+ STJO  A    4 P 95:307:45000 96:214:79200 P - antenna change
+ STJO  A    5 P 96:214:79200 00:147:73200 P - antenna change
+ STJO  A    6 P 00:147:73200 13:031:82800 P - antenna change
+ STJO  A    7 P 13:031:82800 00:000:00000 P - 
+ STJO  A    1 P 00:000:00000 00:000:00000 V - 
+ SUTH  A    1 P 00:000:00000 02:058:00000 P - antenna change
+ SUTH  A    2 P 02:058:00000 04:153:00000 P - antenna change
+ SUTH  A    3 P 04:153:00000 00:000:00000 P - 
+ SUTH  A    1 P 00:000:00000 00:000:00000 V - 
+ SUTM  A    1 P 00:000:00000 05:049:00000 P - unknown
+ SUTM  A    2 P 05:049:00000 13:128:00000 P - antenna change
+ SUTM  A    3 P 13:128:00000 00:000:00000 P - 
+ SUTM  A    1 P 00:000:00000 00:000:00000 V - 
+ SUWN  A    1 P 00:000:00000 00:045:00000 P - antenna change
+ SUWN  A    2 P 00:045:00000 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ SUWN  A    3 P 11:070:20783 13:206:00000 P - antenna change
+ SUWN  A    4 P 13:206:00000 00:000:00000 P - 
+ SUWN  A    1 P 00:000:00000 00:000:00000 V - 
+ SYDN  A    1 P 00:000:00000 00:000:00000 P - 
+ SYDN  A    1 P 00:000:00000 00:000:00000 V - 
+ SYOG  A    1 P 00:000:00000 99:299:00000 P - non linearity
+ SYOG  A    2 P 99:299:00000 07:026:00000 P - receiver change
+ SYOG  A    3 P 07:026:00000 13:357:00000 P - antenna change
+ SYOG  A    4 P 13:357:00000 14:033:32400 P - antenna change
+ SYOG  A    5 P 14:033:32400 00:000:00000 P - 
+ SYOG  A    1 P 00:000:00000 99:299:00000 V - non linearity
+ SYOG  A    2 P 99:299:00000 00:000:00000 V - 
+ TAEJ  A    1 P 00:000:00000 00:000:00000 P - 
+ TAEJ  A    1 P 00:000:00000 00:000:00000 V - 
+ TAH1  A    1 P 00:000:00000 00:000:00000 P - 
+ TAH1  A    1 P 00:000:00000 00:000:00000 V - 
+ TASH  A    1 P 00:000:00000 03:154:00000 P - antenna change
+ TASH  A    2 P 03:154:00000 09:185:00000 P - non linearity
+ TASH  A    3 P 09:185:00000 10:257:00000 P - antenna change
+ TASH  A    4 P 10:257:00000 00:000:00000 P - 
+ TASH  A    1 P 00:000:00000 09:185:00000 V - non linearity
+ TASH  A    2 P 09:185:00000 00:000:00000 V - 
+ TCMS  A    1 P 00:000:00000 02:234:03600 P - antenna change
+ TCMS  A    2 P 02:234:03600 04:361:03530 P - EQ M9.1 - off the west coast of northern Sumatra
+ TCMS  A    3 P 04:361:03530 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ TCMS  A    4 P 11:070:20783 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ TCMS  A    5 P 12:102:31117 00:000:00000 P - 
+ TCMS  A    1 P 00:000:00000 00:000:00000 V - 
+ TEHN  A    1 P 00:000:00000 16:145:23400 P - antenna change
+ TEHN  A    2 P 16:145:23400 00:000:00000 P - 
+ TEHN  A    1 P 00:000:00000 00:000:00000 V - 
+ THTI  A    1 P 00:000:00000 98:326:00000 P - antenna change
+ THTI  A    2 P 98:326:00000 04:013:00000 P - antenna change
+ THTI  A    3 P 04:013:00000 00:000:00000 P - 
+ THTI  A    1 P 00:000:00000 00:000:00000 V - 
+ THU3  A    1 P 00:000:00000 04:276:00000 P - non linearity
+ THU3  A    2 P 04:276:00000 11:279:00000 P - non linearity
+ THU3  A    3 P 11:279:00000 00:000:00000 P - 
+ THU3  A    1 P 00:000:00000 04:276:00000 V - non linearity
+ THU3  A    2 P 04:276:00000 11:279:00000 V - non linearity
+ THU3  A    3 P 11:279:00000 00:000:00000 V - 
+ TID1  A    1 P 00:000:00000 00:089:08100 P - receiver change
+ TID1  A    2 P 00:089:08100 04:348:00000 P - antenna change
+ TID1  A    3 P 04:348:00000 00:000:00000 P - 
+ TID1  A    1 P 00:000:00000 00:000:00000 V - 
+ TIDB  A    1 P 00:000:00000 96:178:00000 P - antenna change
+ TIDB  A    2 P 96:178:00000 04:347:00000 P - antenna change
+ TIDB  A    3 P 04:347:00000 00:000:00000 P - 
+ TIDB  A    1 P 00:000:00000 00:000:00000 V - 
+ TIXI  A    1 P 00:000:00000 02:287:00000 P - antenna change
+ TIXI  A    2 P 02:287:00000 10:293:61200 P - antenna change
+ TIXI  A    3 P 10:293:61200 00:000:00000 P - 
+ TIXI  A    1 P 00:000:00000 00:000:00000 V - 
+ TLSE  A    1 P 00:000:00000 10:055:51900 P - antenna change
+ TLSE  A    2 P 10:055:51900 12:248:35700 P - antenna change
+ TLSE  A    3 P 12:248:35700 16:071:34200 P - antenna change
+ TLSE  A    4 P 16:071:34200 16:081:39600 P - antenna change
+ TLSE  A    5 P 16:081:39600 00:000:00000 P - 
+ TLSE  A    1 P 00:000:00000 00:000:00000 V - 
+ TNML  A    1 P 00:000:00000 04:361:03530 P - EQ M9.1 - off the west coast of northern Sumatra
+ TNML  A    2 P 04:361:03530 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ TNML  A    3 P 11:070:20783 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ TNML  A    4 P 12:102:31117 00:000:00000 P - 
+ TNML  A    1 P 00:000:00000 00:000:00000 V - 
+ TOUL  A    1 P 00:000:00000 00:356:00000 P - unknown
+ TOUL  A    2 P 00:356:00000 00:000:00000 P - 
+ TOUL  A    1 P 00:000:00000 00:000:00000 V - 
+ TOW2  A    1 P 00:000:00000 11:266:00000 P - antenna change
+ TOW2  A    2 P 11:266:00000 00:000:00000 P - 
+ TOW2  A    1 P 00:000:00000 00:000:00000 V - 
+ TRAB  A    1 P 00:000:00000 00:000:00000 P - 
+ TRAB  A    1 P 00:000:00000 00:000:00000 V - 
+ TRO1  A    1 P 00:000:00000 98:356:48000 P - antenna change
+ TRO1  A    2 P 98:356:48000 00:144:00000 P - unknown
+ TRO1  A    3 P 00:144:00000 04:195:28800 P - antenna change
+ TRO1  A    4 P 04:195:28800 07:235:51420 P - antenna change
+ TRO1  A    5 P 07:235:51420 10:207:60720 P - antenna change
+ TRO1  A    6 P 10:207:60720 00:000:00000 P - 
+ TRO1  A    1 P 00:000:00000 00:000:00000 V - 
+ TROM  A    1 P 00:000:00000 00:000:00000 P - 
+ TROM  A    1 P 00:000:00000 00:000:00000 V - 
+ TUVA  A    1 P 00:000:00000 04:045:00000 P - receiver change
+ TUVA  A    2 P 04:045:00000 09:280:80331 P - EQ M7.8 - Santa Cruz Islands
+ TUVA  A    3 P 09:280:80331 12:031:00000 P - antenna change
+ TUVA  A    4 P 12:031:00000 00:000:00000 P - 
+ TUVA  A    1 P 00:000:00000 00:000:00000 V - 
+ UFPR  A    1 P 00:000:00000 10:058:23652 P - EQ M8.8 - offshore Bio-Bio, Chile
+ UFPR  A    2 P 10:058:23652 00:000:00000 P - 
+ UFPR  A    1 P 00:000:00000 00:000:00000 V - 
+ UNBJ  A    1 P 00:000:00000 12:153:52200 P - antenna change
+ UNBJ  A    2 P 12:153:52200 00:000:00000 P - 
+ UNBJ  A    1 P 00:000:00000 00:000:00000 V - 
+ UNSA  A    1 P 00:000:00000 95:211:18684 P - EQ M8.0 - Antofagasta, Chile
+ UNSA  A    2 P 95:211:18684 98:337:00000 P - antenna change
+ UNSA  A    3 P 98:337:00000 01:192:00000 P - antenna change
+ UNSA  A    4 P 01:192:00000 08:206:00000 P - antenna change
+ UNSA  A    5 P 08:206:00000 10:058:23652 P - EQ M8.8 - offshore Bio-Bio, Chile
+ UNSA  A    6 P 10:058:23652 15:120:43200 P - antenna change
+ UNSA  A    7 P 15:120:43200 00:000:00000 P - 
+ UNSA  A    1 P 00:000:00000 08:206:00000 V - antenna change
+ UNSA  A    2 P 08:206:00000 10:058:23652 V - EQ M8.8 - offshore Bio-Bio, Chile
+ UNSA  A    3 P 10:058:23652 00:000:00000 V - 
+ USN3  A    1 P 00:000:00000 00:000:00000 P - 
+ USN3  A    1 P 00:000:00000 00:000:00000 V - 
+ USNO  A    1 P 00:000:00000 00:000:00000 P - 
+ USNO  A    1 P 00:000:00000 00:000:00000 V - 
+ UZHL  A    1 P 00:000:00000 10:354:42000 P - antenna change
+ UZHL  A    2 P 10:354:42000 12:312:33600 P - antenna change
+ UZHL  A    3 P 12:312:33600 13:316:28080 P - antenna change
+ UZHL  A    4 P 13:316:28080 00:000:00000 P - 
+ UZHL  A    1 P 00:000:00000 00:000:00000 V - 
+ VACS  A    1 P 00:000:00000 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ VACS  A    2 P 12:102:31117 00:000:00000 P - 
+ VACS  A    1 P 00:000:00000 00:000:00000 V - 
+ VESL  A    1 P 00:000:00000 03:006:00000 P - non linearity
+ VESL  A    2 P 03:006:00000 06:023:00000 P - non linearity
+ VESL  A    3 P 06:023:00000 00:000:00000 P - 
+ VESL  A    1 P 00:000:00000 03:006:00000 V - non linearity
+ VESL  A    2 P 03:006:00000 06:023:00000 V - non linearity
+ VESL  A    3 P 06:023:00000 00:000:00000 V - 
+ VNDP  A    1 P 00:000:00000 94:134:00000 P - antenna change
+ VNDP  A    2 P 94:134:00000 95:215:00000 P - antenna change
+ VNDP  A    3 P 95:215:00000 95:313:00000 P - antenna change
+ VNDP  A    4 P 95:313:00000 03:356:69356 P - EQ M6.6 - Central California
+ VNDP  A    5 P 03:356:69356 12:033:00000 P - antenna change
+ VNDP  A    6 P 12:033:00000 15:208:79200 P - antenna change
+ VNDP  A    7 P 15:208:79200 00:000:00000 P - 
+ VNDP  A    1 P 00:000:00000 00:000:00000 V - 
+ WES2  A    1 P 00:000:00000 94:189:00000 P - antenna change
+ WES2  A    2 P 94:189:00000 94:215:00000 P - antenna change
+ WES2  A    3 P 94:215:00000 95:249:00000 P - antenna change
+ WES2  A    4 P 95:249:00000 95:321:00000 P - receiver change
+ WES2  A    5 P 95:321:00000 96:116:00000 P - unknown
+ WES2  A    6 P 96:116:00000 96:163:00000 P - antenna change
+ WES2  A    7 P 96:163:00000 97:142:00000 P - antenna change
+ WES2  A    8 P 97:142:00000 97:181:79560 P - antenna change
+ WES2  A    9 P 97:181:79560 98:152:54180 P - antenna change
+ WES2  A   10 P 98:152:54180 00:235:63960 P - antenna change
+ WES2  A   11 P 00:235:63960 01:208:00000 P - antenna change
+ WES2  A   12 P 01:208:00000 14:175:50400 P - antenna change
+ WES2  A   13 P 14:175:50400 00:000:00000 P - 
+ WES2  A    1 P 00:000:00000 00:000:00000 V - 
+ WHIT  A    1 P 00:000:00000 95:194:70200 P - antenna change
+ WHIT  A    2 P 95:194:70200 96:159:00000 P - antenna change
+ WHIT  A    3 P 96:159:00000 97:175:60900 P - antenna change
+ WHIT  A    4 P 97:175:60900 02:307:79961 P - EQ M7.9 - Central Alaska
+ WHIT  A    5 P 02:307:79961 09:037:00000 P - antenna change
+ WHIT  A    6 P 09:037:00000 13:005:32299 P - EQ M7.5 - Southeastern Alaska
+ WHIT  A    7 P 13:005:32299 00:000:00000 P - 
+ WHIT  A    1 P 00:000:00000 00:000:00000 V - 
+ WILL  A    1 P 00:000:00000 94:172:69420 P - antenna change
+ WILL  A    2 P 94:172:69420 95:188:73620 P - antenna change
+ WILL  A    3 P 95:188:73620 13:295:82800 P - antenna change
+ WILL  A    4 P 13:295:82800 00:000:00000 P - 
+ WILL  A    1 P 00:000:00000 00:000:00000 V - 
+ WIND  A    1 P 00:000:00000 11:059:64800 P - antenna change
+ WIND  A    2 P 11:059:64800 00:000:00000 P - 
+ WIND  A    1 P 00:000:00000 00:000:00000 V - 
+ WSRT  A    1 P 00:000:00000 98:076:54540 P - antenna change
+ WSRT  A    2 P 98:076:54540 00:000:00000 P - 
+ WSRT  A    1 P 00:000:00000 00:000:00000 V - 
+ WTZR  A    1 P 00:000:00000 09:019:35280 P - antenna change
+ WTZR  A    2 P 09:019:35280 10:181:28800 P - antenna change
+ WTZR  A    3 P 10:181:28800 00:000:00000 P - 
+ WTZR  A    1 P 00:000:00000 00:000:00000 V - 
+ WUHN  A    1 P 00:000:00000 99:194:00000 P - unknown
+ WUHN  A    2 P 99:194:00000 00:092:00000 P - unknown
+ WUHN  A    3 P 00:092:00000 00:160:00000 P - antenna change
+ WUHN  A    4 P 00:160:00000 02:026:00000 P - antenna change
+ WUHN  A    5 P 02:026:00000 04:361:03530 P - EQ M9.1 - off the west coast of northern Sumatra
+ WUHN  A    6 P 04:361:03530 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ WUHN  A    7 P 11:070:20783 11:082:31200 P - antenna change
+ WUHN  A    8 P 11:082:31200 13:322:33000 P - antenna change
+ WUHN  A    9 P 13:322:33000 00:000:00000 P - 
+ WUHN  A    1 P 00:000:00000 00:000:00000 V - 
+ XMIS  A    1 P 00:000:00000 06:198:29969 P - EQ M7.7 - south of Java, Indonesia
+ XMIS  A    2 P 06:198:29969 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ XMIS  A    3 P 12:102:31117 14:177:00000 P - antenna change
+ XMIS  A    4 P 14:177:00000 00:000:00000 P - 
+ XMIS  A    1 P 00:000:00000 00:000:00000 V - 
+ YAKT  A    1 P 00:000:00000 00:115:00000 P - antenna change
+ YAKT  A    2 P 00:115:00000 00:000:00000 P - 
+ YAKT  A    1 P 00:000:00000 00:000:00000 V - 
+ YAR1  A    1 P 00:000:00000 97:232:00000 P - antenna change
+ YAR1  A    2 P 97:232:00000 00:000:00000 P - 
+ YAR1  A    1 P 00:000:00000 00:000:00000 V - 
+ YAR2  A    1 P 00:000:00000 97:232:00000 P - antenna change
+ YAR2  A    2 P 97:232:00000 02:136:57600 P - antenna change
+ YAR2  A    3 P 02:136:57600 12:102:31117 P - EQ M8.6 - off the west coast of northern Sumatra
+ YAR2  A    4 P 12:102:31117 13:171:00000 P - antenna change
+ YAR2  A    5 P 13:171:00000 00:000:00000 P - 
+ YAR2  A    1 P 00:000:00000 00:000:00000 V - 
+ YEBE  A    1 P 00:000:00000 00:000:00000 P - 
+ YEBE  A    1 P 00:000:00000 00:000:00000 V - 
+ YELL  A    1 P 00:000:00000 94:075:72000 P - antenna change
+ YELL  A    2 P 94:075:72000 96:235:00000 P - antenna change
+ YELL  A    3 P 96:235:00000 13:198:72000 P - antenna change
+ YELL  A    4 P 13:198:72000 00:000:00000 P - 
+ YELL  A    1 P 00:000:00000 00:000:00000 V - 
+ YIBL  A    1 P 00:000:00000 07:099:00000 P - non linearity
+ YIBL  A    2 P 07:099:00000 14:019:44400 P - receiver change
+ YIBL  A    3 P 14:019:44400 00:000:00000 P - 
+ YIBL  A    1 P 00:000:00000 07:099:00000 V - non linearity
+ YIBL  A    2 P 07:099:00000 00:000:00000 V - 
+ YSSK  A    1 P 00:000:00000 00:042:04020 P - receiver change
+ YSSK  A    2 P 00:042:04020 03:268:71406 P - EQ M8.3 - Hokkaido, Japan region
+ YSSK  A    3 P 03:268:71406 06:319:40458 P - EQ M8.3 - Kuril Islands
+ YSSK  A    4 P 06:319:40458 07:214:09462 P - EQ M6.2 - Tatar Strait, Russia
+ YSSK  A    5 P 07:214:09462 11:070:20783 P - EQ M9.0 - near the east coast of Honshu, Japan
+ YSSK  A    6 P 11:070:20783 13:144:20689 P - EQ M8.3 - Sea of Okhotsk
+ YSSK  A    7 P 13:144:20689 00:000:00000 P - 
+ YSSK  A    1 P 00:000:00000 00:000:00000 V - 
+ ZAMB  A    1 P 00:000:00000 00:000:00000 P - 
+ ZAMB  A    1 P 00:000:00000 00:000:00000 V - 
+ ZECK  A    1 P 00:000:00000 01:193:46800 P - antenna change
+ ZECK  A    2 P 01:193:46800 06:211:00000 P - antenna change
+ ZECK  A    3 P 06:211:00000 11:230:43200 P - antenna change
+ ZECK  A    4 P 11:230:43200 00:000:00000 P - 
+ ZECK  A    1 P 00:000:00000 00:000:00000 V - 
+ ZIM2  A    1 P 00:000:00000 09:132:27000 P - antenna change
+ ZIM2  A    2 P 09:132:27000 13:283:43200 P - antenna change
+ ZIM2  A    3 P 13:283:43200 00:000:00000 P - 
+ ZIM2  A    1 P 00:000:00000 00:000:00000 V - 
+ ZIMM  A    1 P 00:000:00000 98:310:00000 P - antenna change
+ ZIMM  A    2 P 98:310:00000 00:000:00000 P - 
+ ZIMM  A    1 P 00:000:00000 00:000:00000 V - 
+-SOLUTION/DISCONTINUITY
+%ENDSNX
