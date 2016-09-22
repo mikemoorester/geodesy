@@ -343,27 +343,30 @@ def read_eqfile(eqfile):
 
 if __name__ == "__main__":
     from argparse import ArgumentParser
-    parser = ArgumentParser(description="read ppp_simulation XML result files")
+
+    parser = ArgumentParser(description="read in discontinuity files in SINEX format, or the GLOBK .eq format, so that they can be merged or updated")
+
     parser.add_argument("-f", dest="filename", nargs='+',
-                                help="output file from igu combination iguWWWWD_HH.sum_full", metavar="FILE")
+                                help="input files (can be more than one) -f <file1> <file2>", metavar="FILE")
+
+    parser.add_argument("-u", dest="update",default=False,action='store_true',
+                                help="Update Discontinuities, -f <file1> <file2>, update <file1> based on unique discontinuties found in <file2>")
 
     parser.add_argument("-d", dest="downloadIGN",default=False,action='store_true',
                                 help="Download IGN discontinuity file")
 
-    parser.add_argument("-m", dest="merge",default=False,action='store_true',
-                                help="Merge Discontinuities")
-
-    parser.add_argument("-u", dest="update",default=False,action='store_true',
-                                help="Update Discontinuities")
-
-    parser.add_argument("-o", dest="outfile",
-                                help="output file to print merged or updated disco file", metavar="FILE")
-    
     parser.add_argument("-t", dest="convertToEq",default=False,action='store_true',
                                 help="Convert to TSVIEW format")
 
     parser.add_argument("-e", dest="eqfile", nargs='+',
                                 help="read in globk format discontinuity", metavar="FILE")
+
+    parser.add_argument("-o", dest="outfile",
+                                help="output file to print merged or updated disco file", metavar="FILE")
+    
+    parser.add_argument("-m", dest="merge",default=False,action='store_true',
+                                help="Merge Discontinuities - only use this option when your creating a brand new file. A Merge will only add new stations into the original discontinuity file")
+
     args = parser.parse_args()
 
     #==========================================================================
@@ -398,7 +401,9 @@ if __name__ == "__main__":
             raise SystemExit
 
         print("Merging the following files:",args.filename[1:],"into:",args.filename[0])
+        #======================================================
         # Take the first file as the orginal disconinuity file
+        #======================================================
         odisco = discos[0]
         for n in range(1,ndiscos):
             mdisco = discos[n]
@@ -441,14 +446,12 @@ if __name__ == "__main__":
     #  
     #==========================================================================
     if args.update:
-        print("Will update the following file",args.filename[0],"with",args.filename[1:])
-
         ndiscos = np.size(discos)
-        print("We have ",ndiscos-1,"disco files to update with.")
         if ndiscos <= 1:
             print("Need to have more than one disconinuity file if we want to update")
-            exit 
+            raise SystemExit
 
+        print("Will update the following file",args.filename[0],"with",args.filename[1:])
         # Take the first file as the orginal disconinuity file
         odisco = discos[0]
         for n in range(1,ndiscos):
