@@ -2,6 +2,7 @@ from __future__ import print_function
 import numpy as np
 import re 
 
+import sys
 import os
 
 import ftplib
@@ -9,8 +10,7 @@ import filecmp
 
 from datetime import date
 from shutil import copyfile
-import sys
-#sys.path.append("../util/")
+
 sys.path.insert(0,os.path.abspath('../util/'))
 
 import gpsTime as gt
@@ -20,6 +20,8 @@ def backup_file(srcdir,backupdir,filename):
     d = date.today()
     src = srcdir+filename
     backup=backupdir+d.isoformat()+"_"+filename
+
+    print("Backing up:",src,"to:",backup)
     copyfile(src,backup)
 
     return backup
@@ -115,14 +117,14 @@ def print_disco_file(disco,fname):
     print('*-------------------------------------------------------------------------------',file=WFID)
     print('+SOLUTION/DISCONTINUITY',file=WFID)
 
-    for station in disco:
+    stations = disco.keys()
+    stations.sort()
+    for station in stations:
         for d in disco[station]:
             #print("station:<",station,">")
             #print("marker :<",d['marker'],">")
             #print("dnum   :<",d['dnum'],">")
             #print("flag   :<",d['flag'],">")
-            #line = ' {:4s}  {:1s}   {:2d} {:1s}'.format(station,d['marker'],d['dnum'],d['flag'])
-            #line = ' {:4s} {:3s}{:2d} {:1s}'.format(station,d['marker'],d['dnum'],d['flag'])
             line = ' {:4s}  {:<3s} {:2d} {:1s}'.format(station,d['marker'],d['dnum'],d['flag'])
             line = line+' {:02d}:{:03d}:{:05d}'.format(d['startyy'],d['startdoy'],d['startsec'])
             line = line+' {:02d}:{:03d}:{:05d}'.format(d['endyy'],d['enddoy'],d['endsec'])
@@ -158,45 +160,7 @@ def num2str(val):
     dict = { '10':'J', '11':'K', '12':'L', '13':'M', '14':'N', '15':'O', '16':'P', '17':'Q', '18':'R', 
              '19':'S', '20':'T', '21':'U', '22':'V', '23':'W', '24':'X', '25':'Y', '26':'Z' }
     return dict[str(val)]
-    
-#   if val < 10:
-#       return val
-#   elif val == 10:
-#       return 'J'
-#   elif val == 11:
-#       return 'K'
-#   elif val == 12:
-#       return 'L'
-#   elif val == 13:
-#       return 'M'
-#   elif val == 14:
-#       return 'N'
-#   elif val == 15:
-#       return 'O'
-#   elif val == 16:
-#       return 'P'
-#   elif val == 17:
-#       return 'Q'
-#   elif val == 18:
-#       return 'R'
-#   elif val == 19:
-#       return 'S'
-#   elif val == 20:
-#       return 'T'
-#   elif val == 21:
-#       return 'U'
-#   elif val == 22:
-#       return 'V'
-#   elif val == 23:
-#       return 'W'
-#   elif val == 24:
-#       return 'X'
-#   elif val == 25:
-#       return 'Y'
-#   elif val == 26:
-#       return 'Z'
-#   else:
-#       return 'A'
+
 
 def print_tsview_file(disco,fname):
     """
@@ -243,6 +207,95 @@ def print_tsview_file(disco,fname):
 
     return 1
 
+#==============================================================================
+
+def read_renamefile(renamefile):
+    """
+
+
+    """
+
+    disco = {}
+
+    XPS_RGX = re.compile('_XPS ')
+
+    #==========================================================================
+    # Read in the file and parse it into a data structure 
+    #==========================================================================
+    with open(renamefile, 'r') as RFID:
+        for line in RFID:
+            if XPS_RGX.search(line):
+                continue
+
+            vals = line.split()
+
+            station = vals[1][0:4]
+            if station not in disco:
+                disco[station] = []
+
+            try:
+                disco_num = int(vals[2][5])
+            except ValueError:
+                disco_num = str2num(vals[2][5])
+
+            start_yyyy = vals[3]
+            start_mon  = vals[4]
+            start_dd   = vals[5]
+            start_hh   = vals[6]
+            start_mm   = vals[7]
+
+            print("station:",station,disco_num,start_yyyy,start_mon,start_dd,start_hh,start_mm)
+            
+            d = {}
+            d['marker']   = 'A' 
+            d['dnum']     = disco_num
+            d['flag']     = 'P'
+                
+            if disco_num == 1:
+                d['startyy']  = 00
+                d['startdoy'] = 000
+                d['startsec'] = 0
+
+                d['endyy']    = gt.yyyy2yy( int(start_yyyy) )
+                d['enddoy']   = gt.ymd2yyyyddd(int(start_yyyy),int(start_mon),int(start_dd))[1]
+            else: 
+                print("disco_num:<",disco_num,">",np.size(disco[station]))
+                print(disco[station])
+                dp = disco[station][disco_num-2]
+                d['startyy']  = dp['endyy']
+                d['startdoy'] = dp['enddoy'] 
+                d['startsec'] = 0
+
+                d['endyy']  = gt.yyyy2yy( int(start_yyyy) )
+                d['enddoy'] = gt.ymd2yyyyddd(int(start_yyyy),int(start_mon),int(start_dd))[1]
+                
+            d['endsec']   = 0
+            d['dtype']    = 'P'
+
+            disco[station].append(d)
+
+    #==========================================================================
+    # Add in the null velocity discontinuity needed by CATREF
+    #==========================================================================
+    for station in disco:
+        d = {}
+        d['marker']   = 'A' 
+        d['dnum']     = 1
+        d['flag']     = 'P'
+        d['startyy']  = 00
+        d['startdoy'] = 000
+        d['startsec'] = 0
+        d['endyy']    = 00
+        d['enddoy']   = 000
+        d['endsec']   = 0
+        d['dtype']     = 'V'
+
+        disco[station].append(d)
+
+    return disco
+
+#==============================================================================
+
 def read_eqfile(eqfile):
     """
     read_eqfile(filename)
@@ -269,7 +322,6 @@ def read_eqfile(eqfile):
                 except ValueError:
                     disco_num = str2num(line[21])
 
-                #print("Disco number:",disco_num)
                 start_yyyy = line[25:29]
                 start_mon  = line[30:32]
                 start_dd   = line[33:35]
@@ -361,6 +413,9 @@ if __name__ == "__main__":
     parser.add_argument("-e", dest="eqfile", nargs='+',
                                 help="read in globk format discontinuity", metavar="FILE")
 
+    parser.add_argument("-r", dest="renames", nargs='+',
+                                help="read in tsview renames discontinuity file", metavar="FILE")
+
     parser.add_argument("-o", dest="outfile",
                                 help="output file to print merged or updated disco file", metavar="FILE")
     
@@ -389,6 +444,15 @@ if __name__ == "__main__":
             disco = read_eqfile(eqfile)
             print_disco_file(disco,eqfile+'.snx')
 
+    #==========================================================================
+    # Option to parse the tsview 'saved' discontinuities into
+    # SINEX format
+    #==========================================================================
+    if args.renames:
+        for renamefile in args.renames:
+            disco = read_renamefile(renamefile)
+            print_disco_file(disco,renamefile+'.snx')
+
     if args.filename:
         for discofile in args.filename:
             disco = parse_disco_file(discofile) 
@@ -397,7 +461,7 @@ if __name__ == "__main__":
     if args.merge:
         ndiscos = np.size(discos)
         if ndiscos <= 1:
-            print("Need to have more than one disconinuity file if we want to merge them together")
+            print("Need to have more than one disconinuity file if you want to merge them together")
             raise SystemExit
 
         print("Merging the following files:",args.filename[1:],"into:",args.filename[0])
@@ -465,7 +529,7 @@ if __name__ == "__main__":
                     # for a stations, store these into the official
                     # file so that they are updated
                     if sm > so :
-                        print("Have a discontinuity to update:",station)
+                        print("Updating the discontinuties for station:",station)
                         # odisco[station] = mdisco[station]
                         # Try and preserver the 'reason' field
                         # of the original file
@@ -474,23 +538,17 @@ if __name__ == "__main__":
                         # comments unless the following works:
                         for i in range(0,so):
                             md = mdisco[station][i]
-                            print("MD:",md)
+                            #print("MD:",md)
                             od = odisco[station][i]
                             if ('reason' in md) and (md['reason'] != '-'):
                                 continue
                             if 'reason' in od:
-                                print("Adding reason!",od['reason'])
+                                #print("Adding reason!",od['reason'])
                                 md['reason'] = od['reason']  
                         odisco[station] = mdisco[station]
 
                 else:
                     odisco[station] = mdisco[station]
-
-        # print the file out
-        if args.outfile:
-            fname = args.outfile
-        else:
-            fname = 'updated.snx'
 
         dirname  = os.path.split(args.filename[0])[0]
         filename = os.path.split(args.filename[0])[1]
@@ -498,9 +556,12 @@ if __name__ == "__main__":
             srcdir = './'
         else:
             srcdir = dirname+'/'
-        print("backup",srcdir,srcdir,filename)
+
+        print("before applying update we will back up the file:",args.filename[0])
         backup_file(srcdir,srcdir,filename)
-        print_disco_file(odisco,fname)
+
+        #print_disco_file(odisco,filename)
+        print_disco_file(odisco,args.filename[0])
 
     if args.convertToEq:
         # print the file out
